@@ -1,7 +1,6 @@
 # ASSALAMU'ALAIKUM BROTHER
 [![LeetHub](https://github.com/xlord27/xlord27/blob/main/20230423_200237.png)
 
-## (ANALYSIS)
 
 <p align="center">
 
