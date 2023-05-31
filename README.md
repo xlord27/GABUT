@@ -1,6 +1,9 @@
 # ASSALAMU'ALAIKUM BROTHER
-# ABOUT ME
-https://telegra.ph/file/17162ec754ef8f458fa1a.jpg
+[![LeetHub](https://github.com/xlord27/xlord27/blob/main/20230423_200237.png)](https://instragam.com/c/xlord.xyz "LeetHub saves lives!")
+
+## (ANALYSIS)
+
+<p align="center">
 
 <b><pre><code>NYARI APA DEK</code></pre>
 
