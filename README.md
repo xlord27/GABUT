@@ -1,8 +1,7 @@
 # ASSALAMU'ALAIKUM BROTHER
 
-<p align="center"><img src="https://user-images.githubusercontent.com/gabut/main/20230423_200237.png"
 
-<p align="center">
+
 
 <b><pre><code>NYARI APA DEK</code></pre>
 
