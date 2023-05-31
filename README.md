@@ -1,6 +1,6 @@
 # ASSALAMU'ALAIKUM BROTHER
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/20230423_200237.png"/> </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/20230423_200237.png"/></p>
 
 <p align="center">
 
