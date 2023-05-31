@@ -1,6 +1,6 @@
 # ASSALAMU'ALAIKUM BROTHER
 
-https://raw.githubusercontent.com/xlord27/gabut/main/20230423_200237.png
+<p align="center"> <img src="https://user-images.githubusercontent.com/20230423_200237.png"/> </p>
 
 <p align="center">
 
