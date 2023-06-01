@@ -263,7 +263,7 @@ export pak=$( cat /home/.ver)
 IPVPS=$(curl -s ipinfo.io/ip )
 clear
 echo -e "$COLOR1┌──────────────────────────────────────────────────┐${NC}" 
-echo -e "$COLOR1│  ${NC}     ${YELLOW}<< XLORD VPN STORE >>${NC}       $COLOR1│ ${NC}"
+echo -e "$COLOR1│  ${NC}     ${YELLOW}<< XLORD VPN STORE >>${NC}     $COLOR1│ ${NC}"
 echo -e "$COLOR1└──────────────────────────────────────────────────┘${NC}" 
 echo -e " $COLOR1┌──────────────────────────────────────────────────┐${NC}"
 echo -e "$COLOR1 │${NC} ✪$bd OS NAME    : ${BICyan}$cname${NC}"
@@ -289,11 +289,11 @@ echo -e "${GREEN}   \033[0m ${Blue} $ssh1        $vma           $vla          $t
 echo -e "$COLOR1└──────────────────────────────────────────────────┘${NC}" 
   
 echo -e "$COLOR1┌───────────────────────────────────────────────────────┐${NC}"
-echo -e "     ${BICyan}[${BIWhite}01${BICyan}] SSH     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "     ${BICyan}[${BIWhite}06${BICyan}] TRIALL    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   "
-echo -e "     ${BICyan}[${BIWhite}02${BICyan}] VMESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}07${BICyan}] BACKUP    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   "
-echo -e "     ${BICyan}[${BIWhite}03${BICyan}] VLESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}08${BICyan}] ADD-HOST      ${NC}" "${BICyan}     "
-echo -e "     ${BICyan}[${BIWhite}04${BICyan}] TROJAN  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}09${BICyan}] RUNNING SERVICE              "
-echo -e "     ${BICyan}[${BIWhite}05${BICyan}] SETING  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}TELE${BICyan}] @xlordeuyy  ${BICyan}[${BIYellow}DEV${BICyan}]${NC}" "${BICyan}   ${NC}"
+echo -e "$COLOR1│${BICyan}[${BIWhite}01${BICyan}] SSH     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"    "     ${BICyan}[${BIWhite}06${BICyan}] TRIALL    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   "
+echo -e "$COLOR1│${BICyan}[${BIWhite}02${BICyan}] VMESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}07${BICyan}] BACKUP    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}   "
+echo -e "$COLOR1│${BICyan}[${BIWhite}03${BICyan}] VLESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}08${BICyan}] ADD-HOST      ${NC}" "${BICyan}     "
+echo -e "$COLOR1│${BICyan}[${BIWhite}04${BICyan}] TROJAN  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "     ${BICyan}[${BIWhite}09${BICyan}] RUNNING SERVICE              "
+echo -e "$COLOR1│${BICyan}[${BIWhite}05${BICyan}] SETING  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}TELE${BICyan}] @xlordeuyy  ${BICyan}[${BIYellow}DEV${BICyan}]${NC}" "${BICyan}   ${NC}"
 echo -e "$COLOR1└───────────────────────────────────────────────────────┘${NC}"
 
 echo -e "$COLOR1 ┌─────────────────────────────────┐${NC}"
