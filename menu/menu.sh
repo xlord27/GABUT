@@ -297,9 +297,9 @@ echo -e "     ${BICyan}[${BIWhite}05${BICyan}] SETING  ${BICyan}[${BIYellow}Menu
 echo -e  "\033[0;34m╒═════════════════════════════════════════════════════════════╕\033[0m${NC}"
 echo -e " \033[0;95m                     << MOD BY XLORD >>                      \E[0m"
 echo -e "\033[0;34m╘═════════════════════════════════════════════════════════════╛\033[0m${NC}"
-echo -e "${BICyan} ┌─────────────────────────────────┐${NC}"
+echo -e "${BICyan} ┌──────────────────────────────────────────┐${NC}"
 echo -e " ${YELLOW} HARI INI${NC}  : [$ttoday] │${YELLOW} BULANAN${NC}: [$tmon]"
-echo -e "${BICyan} └─────────────────────────────────┘${NC}"
+echo -e "${BICyan} └──────────────────────────────────────────┘${NC}"
 DATE=$(date +'%d %B %Y')
 datediff() {
     d1=$(date -d "$1" +%s)
