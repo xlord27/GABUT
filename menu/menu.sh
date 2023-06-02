@@ -296,9 +296,9 @@ echo -e "$COLOR1│${BICyan}[${BIWhite}04${BICyan}] TROJAN  ${BICyan}[${BIYellow
 echo -e "$COLOR1│${BICyan}[${BIWhite}05${BICyan}] SETING  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}"  "     ${BICyan}[${BIWhite}TELE${BICyan}] @xlordeuyy  ${BICyan}[${BIYellow}DEV${BICyan}]${NC}" "${BICyan}   ${NC}"
 echo -e "$COLOR1└───────────────────────────────────────────────────┘${NC}"
 
-echo -e "$COLOR1 ┌───────────────────────────────────────────────────┐${NC}"
-echo -e " ${YELLOW} HARI INI${NC}  : [$ttoday]|${YELLOW}│BULANAN${NC}: [$tmon]"
-echo -e "$COLOR1 └───────────────────────────────────────────────────┘${NC}"
+echo -e "$COLOR1 ┌────────────────────────────────────────────────┐${NC}"
+echo -e " ${YELLOW} HARI INI${NC}  : [$ttoday]|${YELLOW} │ BULANAN${NC}: [$tmon]"
+echo -e "$COLOR1 └────────────────────────────────────────────────┘${NC}"
 DATE=$(date +'%d %B %Y')
 datediff() {
     d1=$(date -d "$1" +%s)
@@ -307,8 +307,8 @@ datediff() {
 }
 mai="datediff "$Exp" "$DATE""
 echo -e " $COLOR1┌─────────────────────────────────────┐${NC}"
-echo -e " $COLOR1│${NC}   Version        : $(cat /opt/.ver) Last Update ${NC}"
-echo -e " $COLOR1│${NC}   User           :\033[1;36m $Name \e[0m"
+echo -e " $COLOR1│${NC}   Version        : $(cat /opt/.ver) 4.0 ${NC}"
+echo -e " $COLOR1│${NC}   Client         :\033[1;36m $Name \e[0m"
 echo -e " $COLOR1│${NC}   Order By       : ${BIRed}XLORD VPN${NC}"
 if [ $exp \< 1000 ];
 then
