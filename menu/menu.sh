@@ -279,13 +279,13 @@ echo -e "$COLOR1 │${NC} ✪$bd KATA KATA  : \033[31;1m𝗝𝗔𝗡𝗚𝗔𝗡
 echo -e "$COLOR1 └──────────────────────────────────────────────────┘${NC}" 
 
 echo -e "$COLOR1┌─────────────────────────────────────────────────────┐${NC}"
-echo -e "$COLOR1│${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r    $COLOR1│"
-echo -e "$COLOR1│${BICyan}     STUNNEL ${NC}: $resst" "${BICyan} DROPBEAR ${NC}: $resdbr" "${BICyan} SSH-WS ${NC}: $ressshws      $COLOR1│"
+echo -e "$COLOR1│${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r      $COLOR1│"
+echo -e "$COLOR1│${BICyan}     STUNNEL ${NC}: $resst" "${BICyan} DROPBEAR ${NC}: $resdbr" "${BICyan} SSH-WS ${NC}: $ressshws       $COLOR1│"
 echo -e "$COLOR1└─────────────────────────────────────────────────────┘${NC}"
 
 echo -e " $COLOR1┌──────────────────────────────────────────────────┐${NC}" 
 echo -e " $COLOR1│${GREEN}   \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJAN $NC        $COLOR1│" 
-echo -e " $COLOR1│${GREEN}   \033[0m ${Blue} $ssh1        $vma           $vla          $tra $NC             $COLOR1│" 
+echo -e " $COLOR1│${GREEN}   \033[0m ${Blue} $ssh1        $vma           $vla          $tra $NC            $COLOR1│" 
 echo -e " $COLOR1└──────────────────────────────────────────────────┘${NC}" 
   
 echo -e "$COLOR1┌───────────────────────────────────────────────────┐${NC}"
@@ -297,7 +297,7 @@ echo -e "$COLOR1│${BICyan}[${BIWhite}05${BICyan}] SETING  ${BICyan}[${BIYellow
 echo -e "$COLOR1└───────────────────────────────────────────────────┘${NC}"
 
 echo -e "$COLOR1 ┌────────────────────────────────────────────────┐${NC}"
-echo -e " $COLOR1│${YELLOW} HARI INI${NC}  : [$ttoday]|${YELLOW} │ BULANAN${NC}:[$tmon]${NS}$COLOR1│"
+echo -e " $COLOR1│${YELLOW} HARI INI${NC}  : [$ttoday]|${YELLOW} │ BULANAN${NC}:[$tmon]${NS}  $COLOR1│"
 echo -e "$COLOR1 └────────────────────────────────────────────────┘${NC}"
 DATE=$(date +'%d %B %Y')
 datediff() {
