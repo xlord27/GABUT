@@ -356,7 +356,7 @@ chmod +x speedtest
 chmod +x about
 chmod +x auto-reboot
 chmod +x restart
-chmod +x clearlog
+chmod +x /usr/bin/clearlog
 chmod +x bw
 
 chmod +x port-ssl
