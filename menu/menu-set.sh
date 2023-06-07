@@ -52,6 +52,7 @@ echo -e "     ${BICyan}[${BIWhite}06${BICyan}] Set Auto Reboot   "
 echo -e "     ${BICyan}[${BIWhite}07${BICyan}] Restart All Service"
 echo -e "     ${BICyan}[${BIWhite}08${BICyan}] Change Banner"
 echo -e "     ${BICyan}[${BIWhite}09${BICyan}] Cek Bandwith"
+echo -e "     ${BICyan}[${BIWhite}10${BICyan}] Hapus Dosa"
 
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "     ${BIYellow}Press x or [ Ctrl+C ] • To-${BIWhite}Exit${NC}"
@@ -68,6 +69,7 @@ case $opt in
 7) clear ; restart ; exit ;;
 8) clear ; nano /etc/issue.net ; exit ;; #ssh-vpn banner.conf
 9) clear ; bw ; exit ;;
+10) clear ; clearlog ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
 *) echo -e "" ; echo "Anda salah tekan" ; sleep 1 ; menu-set ;;
