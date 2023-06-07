@@ -305,6 +305,7 @@ wget -O speedtest "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/spee
 wget -O about "https://raw.githubusercontent.com/xlord27/gabut/main/menu/about.sh"
 wget -O auto-reboot "https://raw.githubusercontent.com/xlord27/gabut/main/menu/auto-reboot.sh"
 wget -O restart "https://raw.githubusercontent.com/artanodrop/v4/main/menu/restart.sh"
+wget -0 clearlog "https://raw.githubusercontent.com/xlord27/gabut/main/clearlog.sh"
 wget -O bw "https://raw.githubusercontent.com/artanodrop/v4/main/menu/bw.sh"
 
 # change port
@@ -355,6 +356,7 @@ chmod +x speedtest
 chmod +x about
 chmod +x auto-reboot
 chmod +x restart
+chmod +x clearlog
 chmod +x bw
 
 chmod +x port-ssl
