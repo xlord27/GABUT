@@ -20,9 +20,9 @@ Auto Script Install All VPN BY XLORD
 
 
 
-# PEMBAYARAN
+# SCAN TO PAY
   
-
+![logo](https://raw.githubusercontent.com/xlord27/VPN/main/IMG-20230514-WA0390.jpg)
 
 
 # HARGA SEWA SC
