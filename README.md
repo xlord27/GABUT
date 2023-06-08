@@ -1,4 +1,4 @@
-# SC FREE BY XLORD
+# SC LITE BY XLORD
 
 ![logo](https://raw.githubusercontent.com/xlord27/free-xlord/SS1.png)
 # Autoscript SSH & XRAY MULTIPORT 443 & 80
@@ -6,7 +6,7 @@
 
 <h2 align="center">
 Auto Script Install All VPN XLORD vps premi
-<img src="https://img.shields.io/badge/Version-1.0.1-blue.svg"></h2>
+<img src="https://img.shields.io/badge/Version-4.0-LAST UPDATE-blue.svg"></h2>
 
 </p> 
 <h2 align="center"> Supported Linux Distribution</h2>
@@ -21,11 +21,11 @@ Auto Script Install All VPN XLORD vps premi
 
 
 
-# Scmini
+# GABUT DOANG BANG
 
 
 
-Link
+# Link 
 
 ## 5K 1IP
 ## 20K LIFETIME 1IP
