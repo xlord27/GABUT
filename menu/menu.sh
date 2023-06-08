@@ -296,7 +296,7 @@ echo -e "$COLOR1│${BICyan}[${BIWhite}05${BICyan}] SETING  ${BICyan}[${BIYellow
 echo -e "$COLOR1└───────────────────────────────────────────────────┘${NC}"
 
 echo -e "$COLOR1 ┌───────────────────────────────────────────────────┐${NC}"
-echo -e " $COLOR1│${YELLOW} HARI INI${NC}  : [$ttoday]|${YELLOW} │ BULANAN${NC}:[$tmon]${NS}       $COLOR1│"
+echo -e " $COLOR1│${YELLOW} HARI INI${NC}  : [$ttoday]|${YELLOW} │ BULANAN${NC}:[$tmon]${NS}      $COLOR1│"
 echo -e "$COLOR1 └───────────────────────────────────────────────────┘${NC}"
 DATE=$(date +'%d %B %Y')
 datediff() {
