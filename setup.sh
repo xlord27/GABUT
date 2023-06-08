@@ -214,7 +214,7 @@ gg="AM"
 fi
 curl -sS ifconfig.me > /etc/myipvps
 echo " "
-echo "=====================-[ SCRIPT ANDY YUDA TUNNEL ]-===================="
+echo "=====================-[ ALHAMDULILLAH KELAR BANG.. ]-===================="
 echo ""
 echo "------------------------------------------------------------"
 echo ""
@@ -255,7 +255,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Script Created By ANDY YUDA ]-==============="
+echo "===============-[ Sc By Xlord Tmvn ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
