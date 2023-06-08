@@ -326,7 +326,7 @@ case $opt in
 4) clear ; menu-trojan ;;
 5) clear ; menu-set ;;
 6) clear ; menu-trial ;;
-7) clear ; menu-bckp ;;
+7) clear ; menu-backup ;;
 8) clear ; addhost ;;
 9) clear ; running ;;
 6969) clear ; wget https://raw.githubusercontent.com/xlord27/gabut/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
