@@ -21,11 +21,11 @@ Auto Script Install All VPN XLORD vps premi
 
 
 
-# GABUT DOANG BANG
+# GATAU NAMA NYA GABUT
 
 
 
-# Link 
+# HARGA SEWA SC
 
 ## 5K 1IP
 ## 20K LIFETIME 1IP
