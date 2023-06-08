@@ -287,7 +287,7 @@ wget -O usernew "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/userne
 wget -O trial "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/trial.sh"
 wget -O renew "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/renew.sh"
 wget -O hapus "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/hapus.sh"
-wget -O cek "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/cek.sh"
+wget -O cek "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/cek.sh"
 wget -O member "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/member.sh"
 wget -O delete "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/delete.sh"
 wget -O autokill "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/autokill.sh"
