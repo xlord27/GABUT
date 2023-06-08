@@ -356,7 +356,7 @@ chmod +x speedtest
 chmod +x about
 chmod +x auto-reboot
 chmod +x restart
-chmod +x clear-log
+chmod +x clear-log/usr/bin/clear-log
 chmod +x bw
 
 chmod +x port-ssl
@@ -366,7 +366,7 @@ chmod +x xp
 chmod +x acs-set
 chmod +x sshws
 chmod +x status
-chmod +x menu-backup
+chmod +x menu-backup/usr/bin/menu-backup
 chmod +x backup
 chmod +x restore
 chmod +x jam
