@@ -1,4 +1,4 @@
-# SC LITE BY XLORD
+# SC LITE BY 
 
 ![logo](https://raw.githubusercontent.com/xlord27/VPN/main/20230424_073153.png)
 
@@ -20,8 +20,8 @@ Auto Script Install All VPN BY XLORD
 
 
 
-# UBUNTU 20.04 LTS ✅
-# DEBIAN 10.64 BUSTER ✅{recommend}
+# PEMBAYARAN
+  
 
 
 
