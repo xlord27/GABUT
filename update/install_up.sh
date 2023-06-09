@@ -12,6 +12,7 @@ wget -q -O /usr/bin/menu-trojan "https://raw.githubusercontent.com/xlord27/VPN/m
 wget -q -O /usr/bin/menu-bot "https://raw.githubusercontent.com/artanodrop/dxavier/main/update/menu-bot.sh" && chmod +x /usr/bin/menu-bot
 wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-ssh.sh" && chmod +x /usr/bin/menu-ssh
 wget -q -O /usr/bin/menu-set "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-set.sh" && chmod +x /usr/bin/menu-set
+wget -q -O /usr/bin/clearcache "https://raw.githubusercontent.com/xlord27/gabut/main/menu/clearcache" && chmod +x /usr/bin/clearcache
 wget -q -O /usr/bin/usernew "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/usernew" && chmod +x /usr/bin/usernew
 wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/xlord27/gabut/main/backup/menu-backup.sh" && chmod +x /usr/bin/menu-backup
 wget https://raw.githubusercontent.com/xlord27/gabut/main/backup/set-br.sh &&  chmod +x set-br.sh && ./set-br.sh
