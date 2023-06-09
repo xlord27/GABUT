@@ -13,7 +13,7 @@ wget -q -O /usr/bin/menu-bot "https://raw.githubusercontent.com/artanodrop/dxavi
 wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-ssh.sh" && chmod +x /usr/bin/menu-ssh
 wget -q -O /usr/bin/menu-set "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-set.sh" && chmod +x /usr/bin/menu-set
 wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/xlord27/gabut/main/backup/menu-backup.sh" && chmod +x /usr/bin/menu-backup
-wget https://raw.githubusercontent.com/xlord27/gabut/main/backup/set-br.sh &&  chmod +x set-br.sh && ./set-br.sh
+wget -q -0 /usr/bin/backup "https://raw.githubusercontent.com/xlord27/gabut/main/backup/set-br.sh" &&  chmod +x set-br.sh && ./set-br.sh
 echo -e " [INFO] UPDATE BERHASIL..."
 sleep 2
 exit
