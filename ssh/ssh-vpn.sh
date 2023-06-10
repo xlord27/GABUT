@@ -273,8 +273,8 @@ cd /usr/bin
 # menu
 wget -O menu "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu.sh"
 wget -O menu-trial "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-trial.sh"
-wget -O menu-ws "https://raw.githubusercontent.com/xlord27/gabut/xray/menu-ws.sh"
-wget -O menu-vless "https://raw.githubusercontent.com/xlord27/gabut/xray/menu-vless.sh"
+wget -O menu-vmess "https://raw.githubusercontent.com/xlord27/lowq/main/menu-vmess.sh"
+wget -O menu-vless "https://raw.githubusercontent.com/xlord27/lowq/main/menu-vless.sh"
 wget -O running "https://raw.githubusercontent.com/artanodrop/v4/main/menu/running.sh"
 wget -O clearcache "https://raw.githubusercontent.com/xlord27/gabut/main/menu/clearcache.sh"
 wget -O menu-trgo "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-trgo.sh"
@@ -329,7 +329,7 @@ wget -O jam "https://raw.githubusercontent.com/xlord27/gabut/main/jam.sh"
 
 chmod +x menu
 chmod +x menu-trial
-chmod +x menu-ws
+chmod +x menu-vmess
 chmod +x menu-vless
 chmod +x running
 chmod +x clearcache
