@@ -329,7 +329,7 @@ wget -O jam "https://raw.githubusercontent.com/xlord27/gabut/main/jam.sh"
 
 chmod +x menu
 chmod +x menu-trial
-chmod +x menu-vmess
+chmod +x menu-ws
 chmod +x menu-vless
 chmod +x running
 chmod +x clearcache
