@@ -324,7 +324,7 @@ wget -O restore "https://raw.githubusercontent.com/xlord27/gabut/main/backup/res
 wget -O strt "https://raw.githubusercontent.com/xlord27/gabut/main/backup/strt.sh"
 wget -O limitspeed "https://raw.githubusercontent.com/xlord27/gabut/main/backup/limitspeed.sh"
 wget -O autobackup "https://raw.githubusercontent.com/xlord27/gabut/main/backup/autobackup.sh"
-
+wget -O up "https://raw.githubusercontent.com/xlord27/gabut/main/up.sh"
 wget -O jam "https://raw.githubusercontent.com/xlord27/gabut/main/jam.sh"
 
 chmod +x menu
@@ -375,6 +375,7 @@ chmod +x strt
 chmod +x limitspeed
 chmod +x autobackup
 chmod +x jam
+chmod +x up
 cd
 
 
