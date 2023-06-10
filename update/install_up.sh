@@ -26,6 +26,7 @@ wget -q -O /usr/bin/cek-ws "https://raw.githubusercontent.com/xlord27/gabut/main
 wget -q -O /usr/bin/cek-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/cek-vless" && chmod +x /usr/bin/cek-vless
 wget -q -O /usr/bin/del-ws "https://raw.githubusercontent.com/xlord27/gabut/main/xray/cek-del-ws" && chmod +x /usr/bin/del-ws
 wget -q -O /usr/bin/del-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/del-vless" && chmod +x /usr/bin/del-vless
+wget -q -O /root/xray.sh "https://${Server_URL}/xray.sh"
 echo -e " [INFO] UPDATE BERHASIL..."
 sleep 2
 exit
