@@ -167,7 +167,6 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 sleep 2
 clear
 wget https://raw.githubusercontent.com/xlord27/lowq/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
-wget https://raw.githubusercontent.com/xlord27/gabut/main/xray/xray.sh && chmod +x xray.sh && ./xray.sh
 wget https://raw.githubusercontent.com/xlord27/gabut/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 
