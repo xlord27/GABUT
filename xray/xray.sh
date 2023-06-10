@@ -84,7 +84,7 @@ mkdir -p /usr/local/etc/xray
 #chmod +x /usr/local/bin/xray
 
 #Download XRAY Core Dharak
-wget -O /usr/local/bin/xray "https://raw.githubusercontent.com//xlord27/gabut/main/xray.linux.64bit"
+wget -O /usr/local/bin/xray "https://raw.githubusercontent.com//xlord27/gabut/main/xray/xray.linux.64bit"
 chmod +x /usr/local/bin/xray
 
 # generate certificates
@@ -1168,12 +1168,12 @@ cd /usr/bin
 # // VMESS WS FILES
 echo -e "[ ${green}INFO${NC} ] Downloading Vmess WS Files"
 sleep 1
-wget -O add-vmess "https://${Server_URL}/add-ws.sh" && chmod +x add-ws
-wget -O cek-vmess "https://${Server_URL}/cek-ws.sh" && chmod +x cek-ws
-wget -O del-vmess "https://${Server_URL}/del-ws.sh" && chmod +x del-ws
-wget -O renew-vmess "https://${Server_URL}/renew-ws.sh" && chmod +x renew-ws
-wget -O user-vmess "https://${Server_URL}/user-ws.sh" && chmod +x user-ws
-wget -O trial-vmess "https://${Server_URL}/trial-ws.sh" && chmod +x trial-ws
+wget -O add-vmess "https://${Server_URL}/add-vmess.sh" && chmod +x add-ws
+wget -O cek-vmess "https://${Server_URL}/cek-vmess.sh" && chmod +x cek-ws
+wget -O del-vmess "https://${Server_URL}/del-vmess.sh" && chmod +x del-ws
+wget -O renew-vmess "https://${Server_URL}/renew-vmess.sh" && chmod +x renew-ws
+wget -O user-vmess "https://${Server_URL}/user-vmess.vmess" && chmod +x user-ws
+wget -O trial-vmess "https://${Server_URL}/trial-vmess.vmess" && chmod +x trial-ws
 
 # // VLESS WS FILES
 echo -e "[ ${green}INFO${NC} ] Downloading Vless WS Files"
