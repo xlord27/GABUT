@@ -278,8 +278,8 @@ echo -e "$COLOR1 │${NC} 🔆$bd DOMAIN MU  : ${BICyan}$domain${NC}"
 echo -e "$COLOR1 │${NC} 🔆$bd KATA KATA  : \033[31;1m𝗝𝗔𝗡𝗚𝗔𝗡 𝗟𝗨𝗣𝗔 𝗦𝗛𝗢𝗟𝗔𝗧${NC}"
 echo -e "$COLOR1 └──────────────────────────────────────────────────┘${NC}"
 echo -e " $COLOR1┌──────────────────────────────────────────────────┐${NC}"
-echo -e "$COLOR1 │${NC} 🔆$bd BW HARI INI   : ${YELLOW} HARI INI${NC}[$ttoday]${NS}                   $COLOR1│"
-echo -e "$COLOR1 │${NC} 🔆$bd BW BULANAN    : ${YELLOW} BULANAN${NC}:[$tmon]${NS}                   $COLOR1│"
+echo -e "$COLOR1 │${NC} 🔆$bd BW HARI INI   : ${YELLOW} HARI INI${NC}[$ttoday]${NS}                $COLOR1│"
+echo -e "$COLOR1 │${NC} 🔆$bd BW BULANAN    : ${YELLOW} BULANAN${NC}:[$tmon]${NS}                $COLOR1│"
 echo -e "$COLOR1 └──────────────────────────────────────────────────┘${NC}" 
 
 echo -e "$COLOR1┌─────────────────────────────────────────────────────┐${NC}"
@@ -323,7 +323,7 @@ read -p " Select menu : " opt
 echo -e ""
 case $opt in
 1) clear ; menu-ssh ;;
-2) clear ; menu-vmess ;;
+2) clear ; menu-ws ;;
 3) clear ; menu-vless ;;
 4) clear ; menu-trojan ;;
 5) clear ; menu-set ;;
