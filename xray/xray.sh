@@ -89,7 +89,7 @@ chmod +x /usr/local/bin/xray
 
 # generate certificates
 mkdir /root/.acme.sh
-curl https://raw.githubusercontent.com/Rerechan02/XRAY/main/acme.sh -o /root/.acme.sh/acme.sh
+curl https://raw.githubusercontent.com/xlord27/gabut/xray/acme.sh -o /root/.acme.sh/acme.sh
 chmod +x /root/.acme.sh/acme.sh
 /root/.acme.sh/acme.sh --upgrade --auto-upgrade
 /root/.acme.sh/acme.sh --set-default-ca --server letsencrypt
