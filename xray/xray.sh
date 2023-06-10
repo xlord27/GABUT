@@ -10,7 +10,7 @@ green='\e[0;32m'
 purple='\e[0;35m'
 orange='\e[0;33m'
 NC='\e[0m'
-export Server_URL="raw.githubusercontent.com//xlord27/gabut/xray"
+export Server_URL="raw.githubusercontent.com//xlord27/gabut/main/xray"
 
 clear
 dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
@@ -1168,12 +1168,12 @@ cd /usr/bin
 # // VMESS WS FILES
 echo -e "[ ${green}INFO${NC} ] Downloading Vmess WS Files"
 sleep 1
-wget -O add-ws "https://${Server_URL}/add-ws.sh" && chmod +x add-ws
-wget -O cek-ws "https://${Server_URL}/cek-ws.sh" && chmod +x cek-ws
-wget -O del-ws "https://${Server_URL}/del-ws.sh" && chmod +x del-ws
-wget -O renew-ws "https://${Server_URL}/renew-ws.sh" && chmod +x renew-ws
-wget -O user-ws "https://${Server_URL}/user-ws.sh" && chmod +x user-ws
-wget -O trial-ws "https://${Server_URL}/trial-ws.sh" && chmod +x trial-ws
+wget -O add-vmess "https://${Server_URL}/add-ws.sh" && chmod +x add-ws
+wget -O cek-vmess "https://${Server_URL}/cek-ws.sh" && chmod +x cek-ws
+wget -O del-vmess "https://${Server_URL}/del-ws.sh" && chmod +x del-ws
+wget -O renew-vmess "https://${Server_URL}/renew-ws.sh" && chmod +x renew-ws
+wget -O user-vmess "https://${Server_URL}/user-ws.sh" && chmod +x user-ws
+wget -O trial-vmess "https://${Server_URL}/trial-ws.sh" && chmod +x trial-ws
 
 # // VLESS WS FILES
 echo -e "[ ${green}INFO${NC} ] Downloading Vless WS Files"
