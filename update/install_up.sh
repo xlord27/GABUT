@@ -14,17 +14,17 @@ wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/xlord27/gabut/ma
 wget -q -O /usr/bin/menu-set "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-set.sh" && chmod +x /usr/bin/menu-set
 wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/xlord27/gabut/main/backup/menu-backup.sh" && chmod +x /usr/bin/menu-backup
 wget -q -0 /usr/bin/backup "https://raw.githubusercontent.com/xlord27/gabut/main/backup/set-br.sh" &&  chmod +x set-br.sh && ./set-br.sh
-wget -q -O /usr/bin/user-ws "https://raw.githubusercontent.com/xlord27/gabut/main/xray/user-ws" && chmod +x /usr/bin/user-ws
+wget -q -O /usr/bin/user-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/user-ws" && chmod +x /usr/bin/user-ws
 wget -q -O /usr/bin/user-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/user-vless" && chmod +x /usr/bin/user-vless
-wget -q -O /usr/bin/trial-ws "https://raw.githubusercontent.com/xlord27/gabut/main/xray/trial-ws" && chmod +x /usr/bin/trial-ws
+wget -q -O /usr/bin/trial-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/trial-ws" && chmod +x /usr/bin/trial-ws
 wget -q -O /usr/bin/trial-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/trial-vless" && chmod +x /usr/bin/trial-vless
-wget -q -O /usr/bin/renew-ws "https://raw.githubusercontent.com/xlord27/gabut/main/xray/renew-ws" && chmod +x /usr/bin/renew-ws
+wget -q -O /usr/bin/renew-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/renew-ws" && chmod +x /usr/bin/renew-ws
 wget -q -O /usr/bin/renew-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/renew-vless" && chmod +x /usr/renew-vless
-wget -q -O /usr/bin/add-ws "https://raw.githubusercontent.com/xlord27/gabut/main/xray/add-ws" && chmod +x /usr/bin/add-ws
+wget -q -O /usr/bin/add-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/add-ws" && chmod +x /usr/bin/add-ws
 wget -q -O /usr/bin/add-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/add-vless" && chmod +x /usr/bin/add-vless
-wget -q -O /usr/bin/cek-ws "https://raw.githubusercontent.com/xlord27/gabut/main/xray/cek-ws" && chmod +x /usr/bin/cek-ws
+wget -q -O /usr/bin/cek-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/cek-ws" && chmod +x /usr/bin/cek-ws
 wget -q -O /usr/bin/cek-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/cek-vless" && chmod +x /usr/bin/cek-vless
-wget -q -O /usr/bin/del-ws "https://raw.githubusercontent.com/xlord27/gabut/main/xray/cek-del-ws" && chmod +x /usr/bin/del-ws
+wget -q -O /usr/bin/del-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/cek-del-ws" && chmod +x /usr/bin/del-ws
 wget -q -O /usr/bin/del-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/del-vless" && chmod +x /usr/bin/del-vless
 wget -q -O /root/xray.sh "https://raw.githubusercontent.com/xlord27/gabut/main/xray/xray.sh" && chmod +x /root/xray.sh
 echo -e " [INFO] UPDATE BERHASIL..."
