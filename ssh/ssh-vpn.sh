@@ -278,7 +278,7 @@ wget -O menu-vless "https://raw.githubusercontent.com/xlord27/lowq/main/menu/men
 wget -O running "https://raw.githubusercontent.com/artanodrop/v4/main/menu/running.sh"
 wget -O clearcache "https://raw.githubusercontent.com/xlord27/gabut/main/menu/clearcache.sh"
 wget -O menu-trgo "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-trgo.sh"
-wget -O menu-trojan "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-trojan.sh"
+wget -O menu-trojan "https://raw.githubusercontent.com/xlord27/lowq/main/menu/menu-trojan.sh"
 wget -O fix "https://raw.githubusercontent.com/xlord27/VPN/main/cf.sh"
 
 # menu ssh ovpn
