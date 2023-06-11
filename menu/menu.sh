@@ -160,6 +160,7 @@ totalram=$(($total_ram/1024))
 persenmemori="$(echo "scale=2; $usmem*100/$tomem" | bc)"
 #persencpu=
 persencpu="$(echo "scale=2; $cpu1+$cpu2" | bc)"
+USAGERAM=$(free -m | awk 'NR==2 {print $3}')"
 
 # // Clear
 clear
