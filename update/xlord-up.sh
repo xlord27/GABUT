@@ -6,7 +6,7 @@ echo -e " [INFO] WAITT DATA UPLOADING..."
 sleep 2
 wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu.sh" && chmod +x /usr/bin/menu
 wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-ssh.sh" && chmod +x /usr/bin/menu-ssh
-wget -q -O /usr/bin/add-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/add-vmess.sh" && chmod +x add-vmess /usr/bin/add-vmess
+wget -q -O /usr/bin/cek-vmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/cek-vmess" && chmod +x cek-vmess /usr/bin/cek-vmess
 echo -e " [INFO] UPDATE BERHASIL..."
 sleep 2
 exit
