@@ -6,8 +6,8 @@ echo -e " [INFO] WAITT DATA UPLOADING..."
 sleep 2
 wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu.sh" && chmod +x /usr/bin/menu
 wget -q -O /usr/bin/menu-ss "https://raw.githubusercontent.com/artanodrop/dxavier/main/update/menu-ss.sh" && chmod +x /usr/bin/menu-ss
-wget -q -O /usr/bin/menu-vmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/menu-vmess.sh" && chmod +x /usr/bin/menu-vmess
-wget -q -O /usr/bin/menu-vless "https://raw.githubusercontent.com/xlord27/lowq/main/xray/menu-vless.sh" && chmod +x /usr/bin/menu-vless
+wget -q -O /usr/bin/menu-vmess "https://raw.githubusercontent.com/xlord27/lowq/main/menu/menu-vmess.sh" && chmod +x /usr/bin/menu-vmess
+wget -q -O /usr/bin/menu-vless "https://raw.githubusercontent.com/xlord27/lowq/main/menu/menu-vless.sh" && chmod +x /usr/bin/menu-vless
 wget -q -O /usr/bin/menu-trojan "https://raw.githubusercontent.com/xlord27/VPN/main/menu-trojan.sh" && chmod +x /usr/bin/menu-trojan
 wget -q -O /usr/bin/menu-bot "https://raw.githubusercontent.com/artanodrop/dxavier/main/update/menu-bot.sh" && chmod +x /usr/bin/menu-bot
 wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-ssh.sh" && chmod +x /usr/bin/menu-ssh
