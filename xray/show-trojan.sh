@@ -46,8 +46,8 @@ if [ -z $user ]; then
 m-trojan
 else
 clear
-echo -e "`cat "/etc/xraylog/log-trojan-$user.txt"`"
+echo -e "`cat "/etc/xraylog/show-trojan-$user.txt"`"
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu"
-m-trojan
+menu-trojan
 fi
