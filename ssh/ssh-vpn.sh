@@ -383,6 +383,9 @@ chmod +x limitspeed
 chmod +x autobackup
 chmod +x jam
 chmod +x up
+chmod +x trialvmess
+chmod +x trialvless
+chmod +x trialtrojan
 cd
 
 
