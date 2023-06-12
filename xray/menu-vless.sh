@@ -407,7 +407,7 @@ echo -e " [\e[36m•2\e[0m] Trial Akun XRAY Vless "
 echo -e " [\e[36m•3\e[0m] Extending Akun XRAY Vless Active Life "
 echo -e " [\e[36m•4\e[0m] Delete Akun XRAY Vless Websocket "
 echo -e " [\e[36m•5\e[0m] Check User Login XRAY Vless "
-echo -e " [\e[36m•6\e[0m] Check User Login XRAY Vless "
+echo -e " [\e[36m•6\e[0m] Show User XRAY Vless "
 echo -e ""
 echo -e " [\e[31m•0\e[0m] \e[31mKEMBALI KE MENU\033[0m"
 echo -e ""
@@ -425,7 +425,7 @@ case $opt in
 3) clear ; renewvless ; exit ;;
 4) clear ; delvless ; exit ;;
 5) clear ; cekvless ; exit ;;
-6) clear ; user-vmess ; exit ;;
+6) clear ; show-vless ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
 *) echo "Anda salah tekan " ; sleep 1 ; menu-ssh ;;
