@@ -267,6 +267,7 @@ echo -e " [\e[36m•2\e[0m] Trial Akun Trojan "
 echo -e " [\e[36m•3\e[0m] Extending Akun Trojan Active Life "
 echo -e " [\e[36m•4\e[0m] Delete Akun Trojan "
 echo -e " [\e[36m•5\e[0m] Check User Login Trojan "
+echo -e " [\e[36m•6\e[0m] Show User Login Trojan "
 echo -e ""
 echo -e " [\e[31m•0\e[0m] \e[31mMENU KE MENU\033[0m"
 echo -e   ""
@@ -284,6 +285,7 @@ case $opt in
 3) clear ; renewtrojan ;;
 4) clear ; deltrojan ;;
 5) clear ; cektrojan ;;
+6) clear ; show-trojan ;;
 0) clear ; menu ;;
 x) exit ;;
 *) echo "kamu salah tekan, Sayang" ; sleep 1 ; menu-trojan ;;
