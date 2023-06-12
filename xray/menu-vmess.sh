@@ -393,10 +393,10 @@ echo -e ""
 case $opt in
 1) clear ; addvmess ; exit ;;
 2) clear ; trialvmess ; exit ;;
-3) clear ; renew-vmess ; exit ;;
-4) clear ; del-vmess ; exit ;;
+3) clear ; renewvmess ; exit ;;
+4) clear ; delvmess ; exit ;;
 5) clear ; cekvmess ; exit ;;
-6) clear ; user-vmess ; exit ;;
+6) clear ; uservmess ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
 *) echo "Anda salah tekan " ; sleep 1 ; menu-ssh ;;
