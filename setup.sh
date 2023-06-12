@@ -166,7 +166,7 @@ echo -e "$green          Install XRAY              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/xlord27/lowq/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget http://sgpx.cybervpn.site:81/Autoscript-by-azi-main/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 wget https://raw.githubusercontent.com/xlord27/gabut/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 
