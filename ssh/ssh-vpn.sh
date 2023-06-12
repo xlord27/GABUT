@@ -327,6 +327,13 @@ wget -O autobackup "https://raw.githubusercontent.com/xlord27/gabut/main/backup/
 wget -O up "https://raw.githubusercontent.com/xlord27/gabut/main/up.sh"
 wget -O jam "https://raw.githubusercontent.com/xlord27/gabut/main/jam.sh"
 
+#vmess
+wget -O trialvmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialvmess.sh"
+#vless
+wget -O trialvless "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialvless.sh"
+#trojan
+wget -O trialtrojan "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialtrojan.sh"
+
 chmod +x menu
 chmod +x menu-trial
 chmod +x menu-vmess
