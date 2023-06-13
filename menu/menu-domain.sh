@@ -20,7 +20,7 @@ read -p " Select menu : " opt
 echo -e ""
 case $opt in
 1) clear ; addhost ;;
-2) clear ; cert ;;
+2) clear ; genssl ;;
 0) clear ; menu ;;
 x) exit ;;
 *) echo "Anda salah tekan" ; sleep 1 ; menu-domain ;;
