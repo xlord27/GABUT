@@ -16,7 +16,7 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
 else
-echo "IP=$host" > /var/lib/SIJA/ipvps.conf
+echo "IP=$host" > /var/lib/gabut/ipvps.conf
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo "Dont forget to renew cert"
 echo ""
