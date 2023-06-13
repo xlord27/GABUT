@@ -408,7 +408,10 @@ chmod +x trial-ws
 chmod +x cek-ws
 chmod +x renew-ws
 chmod +x del-ws
-chmod +x trialvless
+chmod +x trial-vless
+chmod +x cek-vless
+chmod +x renew-vless
+chmod +x del-vless
 chmod +x trial-tr
 chmod +x cek-tr
 chmod +x renew-tr
