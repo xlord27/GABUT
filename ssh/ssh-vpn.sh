@@ -339,7 +339,10 @@ wget -O renew-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/r
 wget -O cek-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/cek-vless.sh"
 
 #trojan
-wget -O trialtrojan "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialtrojan.sh"
+wget -O trial-tr "https://raw.githubusercontent.com/xlord27/gabut/main/xray/trial-tr.sh"
+wget -O del-tr "https://raw.githubusercontent.com/xlord27/gabut/main/xray/del-tr.sh"
+wget -O renew-tr "https://raw.githubusercontent.com/xlord27/gabut/main/xray/renew-tr.sh"
+wget -O cek-tr "https://raw.githubusercontent.com/xlord27/gabut/main/xray/cek-tr.sh"
 
 #user log
 wget -O show-trojan "https://raw.githubusercontent.com/xlord27/gabut/main/xray/show-trojan.sh"
