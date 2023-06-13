@@ -35,6 +35,7 @@ echo -e " [\e[36m•6\e[0m] Daftar Anggota SSH & OpenVPN "
 echo -e " [\e[36m•7\e[0m] Hapus Pengguna Kedaluwarsa SSH & OpenVPN "
 echo -e " [\e[36m•8\e[0m] Siapkan Autokill SSH "
 echo -e " [\e[36m•9\e[0m] Cek Pengguna yang Melakukan Multi Login SSH "
+echo -e " [\e[36m•9\e[0m] Cek Data User Account SSH "
 echo -e ""
 echo -e " [\e[31m•0\e[0m] \e[31mKEMBALI KE MENU\033[0m"
 echo -e ""
@@ -56,6 +57,7 @@ case $opt in
 7) clear ; delete ; exit ;;
 8) clear ; autokill ; exit ;;
 9) clear ; ceklim ; exit ;;
+10) clear ; show-ssh ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
 *) echo "Anda salah tekan " ; sleep 1 ; menu-ssh ;;
