@@ -277,7 +277,7 @@ wget -O menu-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/me
 wget -O menu-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/menu-vless.sh"
 wget -O running "https://raw.githubusercontent.com/xlord27/gabut/main/banner/running.sh"
 wget -O clearcache "https://raw.githubusercontent.com/xlord27/gabut/main/menu/clearcache.sh"
-wget -O menu-trgo "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-trgo.sh"
+#wget -O menu-trgo "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-trgo.sh"
 wget -O menu-trojan "https://raw.githubusercontent.com/xlord27/gabut/main/xray/menu-trojan.sh"
 wget -O fix "https://raw.githubusercontent.com/xlord27/VPN/main/cf.sh"
 
@@ -305,7 +305,7 @@ wget -O speedtest "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/spee
 wget -O about "https://raw.githubusercontent.com/xlord27/gabut/main/menu/about.sh"
 wget -O auto-reboot "https://raw.githubusercontent.com/xlord27/gabut/main/menu/auto-reboot.sh"
 wget -O restart "https://raw.githubusercontent.com/artanodrop/v4/main/menu/restart.sh"
-wget -O clear-log "https://raw.githubusercontent.com/xlord-27/gabut/main/menu/clear-log.sh"
+#wget -O clear-log "https://raw.githubusercontent.com/xlord-27/gabut/main/menu/clear-log.sh"
 wget -O bw "https://raw.githubusercontent.com/artanodrop/v4/main/menu/bw.sh"
 
 # change port
@@ -328,11 +328,11 @@ wget -O up "https://raw.githubusercontent.com/xlord27/gabut/main/up.sh"
 wget -O jam "https://raw.githubusercontent.com/xlord27/gabut/main/jam.sh"
 
 #vmess
-wget -O trialvmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialvmess.sh"
+#wget -O trialvmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialvmess.sh"
 #vless
-wget -O trialvless "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialvless.sh"
+#wget -O trialvless "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialvless.sh"
 #trojan
-wget -O trialtrojan "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialtrojan.sh"
+#wget -O trialtrojan "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialtrojan.sh"
 
 #user log
 wget -O show-trojan "https://raw.githubusercontent.com/xlord27/gabut/main/xray/show-trojan.sh"
