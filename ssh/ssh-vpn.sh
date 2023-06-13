@@ -297,9 +297,9 @@ wget -O tendang "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/tendan
 # menu system
 wget -O menu-set "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-set.sh"
 wget -O menu-domain "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-domain.sh"
-wget -O addhost "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/addhost.sh"
+wget -O addhost "https://raw.githubusercontent.com/xlord27/gabut/main/addhost.sh"
 wget -O port-change "https://raw.githubusercontent.com/artanodrop/v4/main/port/port-change.sh"
-wget -O cert "https://raw.githubusercontent.com/xlord27/gabut/main/cert.sh"
+wget -O genssl "https://raw.githubusercontent.com/xlord27/gabut/main/genssl.sh"
 wget -O menu-webmin "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-webmin.sh"
 wget -O speedtest "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/speedtest_cli.py"
 wget -O about "https://raw.githubusercontent.com/xlord27/gabut/main/menu/about.sh"
@@ -328,11 +328,11 @@ wget -O up "https://raw.githubusercontent.com/xlord27/gabut/main/up.sh"
 wget -O jam "https://raw.githubusercontent.com/xlord27/gabut/main/jam.sh"
 
 #vmess
-#wget -O trialvmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialvmess.sh"
+wget -O trialvmess "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialvmess.sh"
 #vless
-#wget -O trialvless "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialvless.sh"
+wget -O trialvless "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialvless.sh"
 #trojan
-#wget -O trialtrojan "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialtrojan.sh"
+wget -O trialtrojan "https://raw.githubusercontent.com/xlord27/lowq/main/xray/trialtrojan.sh"
 
 #user log
 wget -O show-trojan "https://raw.githubusercontent.com/xlord27/gabut/main/xray/show-trojan.sh"
