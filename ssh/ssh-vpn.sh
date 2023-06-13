@@ -329,11 +329,8 @@ wget -O jam "https://raw.githubusercontent.com/xlord27/gabut/main/jam.sh"
 
 #vmess
 wget -O trial-ws "https://raw.githubusercontent.com/xlord27/gabut/main/xray/trial-ws.sh"
-
 wget -O del-ws "https://raw.githubusercontent.com/xlord27/gabut/main/xray/del-ws.sh"
-
 wget -O renew-ws "https://raw.githubusercontent.com/xlord27/gabut/main/xray/renew-ws.sh"
-
 wget -O cek-ws "https://raw.githubusercontent.com/xlord27/gabut/main/xray/cek-ws.sh"
 #vless
 wget -O trial-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/trial-vless.sh"
