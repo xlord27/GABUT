@@ -42,7 +42,7 @@ print_sum() {
 }
 DATA=$(apidata $1)
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " \e[1;97;101m            USAGE USER XRAY             \e[0m"
+echo -e "\E[0;100;33m      • USAGE USER VMESS •          \E[0m"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m$NC"
 print_sum "$DATA" "user" "$NC"
 echo -e ""
