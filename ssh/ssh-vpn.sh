@@ -296,8 +296,8 @@ wget -O tendang "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/tendan
 
 # menu system
 wget -O menu-set "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-set.sh"
-wget -O menu-domain "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-domain.sh"
-wget -O addhost "https://raw.githubusercontent.com/xlord27/VPN/main/addhost.sh"
+wget -O menu-domain "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-domain.sh"
+wget -O addhost "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/addhost.sh"
 wget -O port-change "https://raw.githubusercontent.com/artanodrop/v4/main/port/port-change.sh"
 wget -O cert "https://raw.githubusercontent.com/xlord27/VPN/main/Cert.sh"
 wget -O menu-webmin "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-webmin.sh"
@@ -340,9 +340,9 @@ wget -O show-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/sh
 wget -O show-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/show-vmess.sh"
 
 #usage log
-wget -O usage-trojan "https://raw.githubusercontent.com/xlord27/gabut/main/xray/usage.trojan.sh"
-wget -O usage-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/usage.vless.sh"
-wget -O usage-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/usage.vmess.sh"
+wget -O usage-trojan "https://raw.githubusercontent.com/xlord27/gabut/main/xray/usage-trojan.sh"
+wget -O usage-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/usage-vless.sh"
+wget -O usage-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/usage-vmess.sh"
 
 chmod +x menu
 chmod +x menu-trial
