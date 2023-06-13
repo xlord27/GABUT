@@ -409,7 +409,10 @@ chmod +x cek-ws
 chmod +x renew-ws
 chmod +x del-ws
 chmod +x trialvless
-chmod +x trialtrojan
+chmod +x trial-tr
+chmod +x cek-tr
+chmod +x renew-tr
+chmod +x del-tr
 chmod +x show-trojan
 chmod +x show-ssh
 chmod +x show-vless
