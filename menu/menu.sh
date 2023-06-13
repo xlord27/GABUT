@@ -1,14 +1,14 @@
 #!/bin/bash 
  # ========================================= 
- vlx=$(grep -c -E "^#& " "/etc/xray/config.json") 
+ vlx=$(grep -c -E "^#& " "/etc/vless/.vless.db") 
  let vla=$vlx/2 
- vmc=$(grep -c -E "^### " "/etc/xray/config.json") 
+ vmc=$(grep -c -E "^### " "/etc/vmess/vmess.db") 
  let vma=$vmc/2 
  ssh1="$(awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}' /etc/passwd | wc -l)" 
   
- trx=$(grep -c -E "^#! " "/etc/xray/config.json") 
+ trx=$(grep -c -E "^#! " "/etc/trojan/.trojan.db") 
  let tra=$trx/2 
- ssx=$(grep -c -E "^## " "/etc/xray/config.json") 
+ ssx=$(grep -c -E "^## " "/etc/xray/config.json")
  let ssa=$ssx/2 
  COLOR1='\033[0;35m' 
  COLOR2='\033[0;39m' 
