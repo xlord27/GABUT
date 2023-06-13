@@ -338,6 +338,7 @@ wget -O trialtrojan "https://raw.githubusercontent.com/xlord27/lowq/main/xray/tr
 wget -O show-trojan "https://raw.githubusercontent.com/xlord27/gabut/main/xray/show-trojan.sh"
 wget -O show-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/show-vless.sh"
 wget -O show-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/show-vmess.sh"
+wget -O show-ssh "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/show-ssh.sh"
 
 #usage log
 wget -O usage-trojan "https://raw.githubusercontent.com/xlord27/gabut/main/xray/usage-trojan.sh"
@@ -397,6 +398,7 @@ chmod +x trialvmess
 chmod +x trialvless
 chmod +x trialtrojan
 chmod +x show-trojan
+chmod +x show-ssh
 chmod +x show-vless
 chmod +x show-vmess
 chmod +x usage-trojan
