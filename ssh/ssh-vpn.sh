@@ -297,9 +297,9 @@ wget -O tendang "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/tendan
 # menu system
 wget -O menu-set "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-set.sh"
 wget -O menu-domain "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-domain.sh"
-wget -O add-host "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/add-host.sh"
+wget -O addhost "https://raw.githubusercontent.com/xlord27/VPN/main/addhost.sh"
 wget -O port-change "https://raw.githubusercontent.com/artanodrop/v4/main/port/port-change.sh"
-wget -O certv2ray "https://raw.githubusercontent.com/artanodrop/v4/main/xray/certv2ray.sh"
+wget -O cert "https://raw.githubusercontent.com/xlord27/VPN/main/Cert.sh"
 wget -O menu-webmin "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-webmin.sh"
 wget -O speedtest "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/speedtest_cli.py"
 wget -O about "https://raw.githubusercontent.com/xlord27/gabut/main/menu/about.sh"
@@ -368,9 +368,9 @@ chmod +x tendang
 
 chmod +x menu-set
 chmod +x menu-domain
-chmod +x add-host
+chmod +x addhost
 chmod +x port-change
-chmod +x certv2ray
+chmod +x cert
 chmod +x menu-webmin
 chmod +x speedtest
 chmod +x about
