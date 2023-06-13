@@ -37,7 +37,7 @@ echo -e "  \e[1;97;101m             SSH ACCOUNT ABOUT        \e[0m"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e " ${YB}User  Expired${NC}  "
 echo -e "${CYAN}————————————————————————————————————————————————————${NC}"
-grep -E "###! " "/etc/passwd" | cut -d ' ' -f 2-3 | column -t | sort | uniq
+grep -E "###! " "cat /tmp/login-db-pid.txt  | cut -d ' ' -f 2-3 | column -t | sort | uniq
 echo ""
 echo -e "${YB}tap enter to go back${NC}"
 echo -e "${CYAN}————————————————————————————————————————————————————${NC}"
@@ -46,7 +46,7 @@ if [ -z $user ]; then
 menu-ssh
 else
 clear
-echo -e "`cat "/etc/sshlog/show-ssh-$user.txt"`"
+echo -e "`cat /tmp/login-db-pid.txt `"
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu"
 menu-ssh
