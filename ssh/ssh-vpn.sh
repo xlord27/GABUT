@@ -404,7 +404,10 @@ chmod +x limitspeed
 chmod +x autobackup
 chmod +x jam
 chmod +x up
-chmod +x trialvmess
+chmod +x trial-ws
+chmod +x cek-ws
+chmod +x renew-ws
+chmod +x del-ws
 chmod +x trialvless
 chmod +x trialtrojan
 chmod +x show-trojan
