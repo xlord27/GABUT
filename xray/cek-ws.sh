@@ -22,8 +22,7 @@ echo -e "\e[31mPermission Denied!\e[0m";
 
 exit 0
 fi
-}
-checking_sc
+
 clear
 echo -n >/tmp/other.txt
 data=($(cat /etc/xray/config.json | grep '^#vm#' | cut -d ' ' -f 2 | sort | uniq))
