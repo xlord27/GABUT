@@ -279,7 +279,7 @@ wget -O running "https://raw.githubusercontent.com/xlord27/gabut/main/banner/run
 wget -O clearcache "https://raw.githubusercontent.com/xlord27/gabut/main/menu/clearcache.sh"
 #wget -O menu-trgo "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-trgo.sh"
 wget -O menu-trojan "https://raw.githubusercontent.com/xlord27/gabut/main/xray/menu-trojan.sh"
-wget -O fix "https://raw.githubusercontent.com/xlord27/VPN/main/cf.sh"
+wget -O fix "https://raw.githubusercontent.com/xlord27/gabut/main/cf.sh"
 
 # menu ssh ovpn
 wget -O menu-ssh "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-ssh.sh"
@@ -288,7 +288,7 @@ wget -O trial "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/trial.sh
 wget -O renew "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/renew.sh"
 wget -O hapus "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/hapus.sh"
 wget -O cek "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/cek.sh"
-wget -O member "https://raw.githubusercontent.com/xlord/gabut/main/ssh/member.sh"
+wget -O member "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/member.sh"
 wget -O delete "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/delete.sh"
 wget -O autokill "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/autokill.sh"
 wget -O ceklim "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/ceklim.sh"
