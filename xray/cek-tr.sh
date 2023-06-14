@@ -66,4 +66,6 @@ done
 rm -rf /tmp/other.txt
 echo ""
 read -n 1 -s -r -p "Press [ Enter ] to back on menu"
-trojan
+menu
+fi
+)
