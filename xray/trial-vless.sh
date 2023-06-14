@@ -22,8 +22,7 @@ echo -e "\e[31mPermission Denied!\e[0m";
 
 exit 0
 fi
-}
-checking_sc
+
 clear
 red() { echo -e "\\033[32;1m${*}\\033[0m"; }
 TIMES="10"
