@@ -208,4 +208,6 @@ echo -e "Expired On : $exp"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
 read -n 1 -s -r -p "Press [ Enter ] to back menu vless"
-vless
+menu
+fi
+}
