@@ -22,8 +22,7 @@ echo -e "\e[31mPermission Denied!\e[0m";
 
 exit 0
 fi
-}
-checking_sc
+
 clear
 NUMBER_OF_CLIENTS=$(grep -c -E "^#vl# " "/etc/vless/.vless.db")
 if [[ ${NUMBER_OF_CLIENTS} == '0' ]]; then
