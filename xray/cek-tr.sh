@@ -68,4 +68,4 @@ echo ""
 read -n 1 -s -r -p "Press [ Enter ] to back on menu"
 menu
 fi
-)
+}
