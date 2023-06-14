@@ -65,4 +65,6 @@ done
 rm -rf /tmp/other.txt
 echo ""
 read -n 1 -s -r -p "Press [ Enter ] to back on menu vmess"
-vmess
+menu
+fi
+}
