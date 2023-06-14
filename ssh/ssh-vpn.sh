@@ -326,6 +326,7 @@ wget -O limitspeed "https://raw.githubusercontent.com/xlord27/gabut/main/backup/
 wget -O autobackup "https://raw.githubusercontent.com/xlord27/gabut/main/backup/autobackup.sh"
 wget -O up "https://raw.githubusercontent.com/xlord27/gabut/main/up.sh"
 wget -O jam "https://raw.githubusercontent.com/xlord27/gabut/main/jam.sh"
+wget -O /usr/local/bin/xray "https://raw.githubusercontent.com/Rerechan02/XRAY/main/xray.linux.64bit"
 
 #vmess
 wget -O trial-ws "https://raw.githubusercontent.com/xlord27/gabut/main/xray/trial-ws.sh"
@@ -360,6 +361,7 @@ chmod +x menu-trial
 chmod +x menu-vmess
 chmod +x menu-vless
 chmod +x running
+chmod +x /usr/local/bin/xray
 chmod +x clearcache
 chmod +x menu-trgo
 chmod +x menu-trojan
