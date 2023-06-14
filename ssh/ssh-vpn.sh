@@ -349,7 +349,7 @@ wget -O cek-tr "https://raw.githubusercontent.com/xlord27/gabut/main/xray/cek-tr
 wget -O show-trojan "https://raw.githubusercontent.com/xlord27/gabut/main/xray/show-trojan.sh"
 wget -O show-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/show-vless.sh"
 wget -O show-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/show-vmess.sh"
-wget -O show-ssh "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/show-ssh.sh"
+wget -O show-ssh "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/show-ssh"
 
 #usage log
 wget -O usage-trojan "https://raw.githubusercontent.com/xlord27/gabut/main/xray/usage-trojan.sh"
