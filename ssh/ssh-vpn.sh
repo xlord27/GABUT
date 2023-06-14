@@ -381,7 +381,7 @@ chmod +x menu-set
 chmod +x menu-domain
 chmod +x addhost
 chmod +x port-change
-chmod +x cert
+chmod +x genssl
 chmod +x menu-webmin
 chmod +x speedtest
 chmod +x about
