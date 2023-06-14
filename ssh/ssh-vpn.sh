@@ -299,7 +299,7 @@ wget -O menu-set "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu
 wget -O menu-domain "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-domain.sh"
 wget -O addhost "https://raw.githubusercontent.com/Azigaming404/Autoscript-by-azi/main/addhost.sh"
 wget -O port-change "https://raw.githubusercontent.com/artanodrop/v4/main/port/port-change.sh"
-wget -O genssl "https://raw.githubusercontent.com/Azigaming404/Autoscript-by-azi/main/genssl.sh"
+wget -O genssl "https://raw.githubusercontent.com/xlord27/gabut/main/xray/genssl.sh"
 wget -O menu-webmin "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-webmin.sh"
 wget -O speedtest "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/speedtest_cli.py"
 wget -O about "https://raw.githubusercontent.com/xlord27/gabut/main/menu/about.sh"
