@@ -19,4 +19,4 @@ echo -e "TOTAL ACCOUNT:   \e[1;97;101m$JUMLAH USER \e[0m"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
 read -n 1 -s -r -p "Press [enter] to back menu ssh"
-ssh
+menu
