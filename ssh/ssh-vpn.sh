@@ -297,7 +297,7 @@ wget -O tendang "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/tendan
 # menu system
 wget -O menu-set "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-set.sh"
 wget -O menu-domain "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-domain.sh"
-wget -O addhost "https://raw.githubusercontent.com/Azigaming404/Autoscript-by-azi/main/addhost.sh"
+wget -O addhost "https://raw.githubusercontent.com/xlord27/gabut/main/xray/addhost.sh"
 wget -O port-change "https://raw.githubusercontent.com/artanodrop/v4/main/port/port-change.sh"
 wget -O genssl "https://raw.githubusercontent.com/xlord27/gabut/main/xray/genssl.sh"
 wget -O menu-webmin "https://raw.githubusercontent.com/artanodrop/v4/main/menu/menu-webmin.sh"
