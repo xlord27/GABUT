@@ -22,8 +22,7 @@ echo -e "\e[31mPermission Denied!\e[0m";
 
 exit 0
 fi
-}
-checking_sc
+
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e " \e[1;97;101m    CREATE TRIALL VMESS ACCOUNT       \e[0m"
