@@ -49,7 +49,7 @@ echo " Expired On  : $exp"
 echo -e "\033[96m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo ""
 else
-echo -e "  Failure: User $Pengguna Tidak Di Temukan."
+echo -e "  Failure: User $LOGIN Tidak Di Temukan."
 fi
 read -n 1 -s -r -p "Press [enter] to back menu ssh"
 menu
