@@ -49,9 +49,9 @@ if [ ! -e /etc/ssh ]; then
 fi
 vms=$(cat /etc/ssh/.ssh.db)
 if [[ $vms = "" ]]; then
-    ssh="0"
+    sh="0"
 else
-    ssh=$(cat /etc/ssh/.ssh.db | grep "###" | wc -l)
+    sh=$(cat /etc/ssh/.ssh.db | grep "###" | wc -l)
 fi
  clear
 
