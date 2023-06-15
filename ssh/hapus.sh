@@ -15,6 +15,9 @@ printf "%-17s %2s %-17s %2s \n" "  $AKUN" "  $exp     "
 else
 printf "%-17s %2s %-17s %2s \n" "  $AKUN" "  $exp     "
 fi
+DATADB=$(cat /etc/ssh/.ssh.db | grep "^###" | grep -w "${LOGIN}" | awk '{print $2}')
+if [[ "${DATADB}" != '' ]]; then
+  sed -i "/\b${LOGIN}\b/d" /etc/ssh/.ssh.db
 fi
 done < /etc/passwd
 echo -e ""
