@@ -28,14 +28,14 @@ until [[ ${CLIENT_NUMBER} -ge 1 && ${CLIENT_NUMBER} -le ${NUMBER_OF_CLIENTS} ]];
         read -rp "Select one client [1-${NUMBER_OF_CLIENTS}]: " CLIENT_NUMBER
     fi
 done
-if getent passwd $Pengguna > /dev/null 2>&1; then
-        userdel $Pengguna > /dev/null 2>&1
+if getent passwd $USERSSH > /dev/null 2>&1; then
+        userdel $USERSSH > /dev/null 2>&1
         rm -rf /var/www/html/ssh-$LOGIN.txt
         TEXT="
 <code>───────────────────────────</code>
 <code>      SUCCES DELETE SSH    </code>
 <code>───────────────────────────</code>
-<code>Username         : $LOGIN</code>
+<code>Username         : $USERSSH</code>
 <code>Expired          : $exp</code>
 <code>───────────────────────────</code>
 "
@@ -44,12 +44,12 @@ clear
 echo -e "\033[96m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo -e " \e[1;97m             SUCCES DELETE SSH  ACCOUNT       \e[0m"
 echo -e "\033[96m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo " Client Name : $LOGIN"
+echo " Client Name : $USERSSH"
 echo " Expired On  : $exp"
 echo -e "\033[96m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo ""
 else
-echo -e "  Failure: User $LOGIN Tidak Di Temukan."
+echo -e "  Failure: User $USERSSH Tidak Di Temukan."
 fi
 read -n 1 -s -r -p "Press [enter] to back menu ssh"
 menu
