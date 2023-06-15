@@ -9,7 +9,7 @@ vms=$(cat /etc/vmess/.vmess.db)
 if [[ $vms = "" ]]; then
     vm="0"
 else
-    vm=$(cat /etc/vmess/.vmess.db | grep "###" | wc -l)
+    vm=$(cat /etc/vmess/.vmess.db | grep "#vm#" | wc -l)
 fi
 
 if [ ! -e /etc/vless ]; then
@@ -20,7 +20,7 @@ vms=$(cat /etc/vless/.vless.db)
 if [[ $vms = "" ]]; then
     vl="0"
 else
-    vl=$(cat /etc/vless/.vless.db | grep "###" | wc -l)
+    vl=$(cat /etc/vless/.vless.db | grep "#vl#" | wc -l)
 fi
 
 if [ ! -e /etc/trojan ]; then
@@ -31,7 +31,7 @@ vms=$(cat /etc/trojan/.trojan.db)
 if [[ $vms = "" ]]; then
     tr="0"
 else
-    tr=$(cat /etc/trojan/.trojan.db | grep "###" | wc -l)
+    tr=$(cat /etc/trojan/.trojan.db | grep "#tr#" | wc -l)
 fi
 if [ ! -e /etc/shadowsocks ]; then
     mkdir -p /etc/shadowsocks
