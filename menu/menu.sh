@@ -4,12 +4,6 @@ SERONLINE=$(uptime -p | cut -d " " -f 2-10000)
 vmc=$(grep -c -E "^### " "/etc/xray/config.json") 
  let vma=$vmc/2 
 fi
-vms=$(cat /etc/vmess/.vmess.db)
-if [[ $vms = "" ]]; then
-    vm="0"
-else
-    vm=$(cat /etc/vmess/.vmess.db | grep "###" | wc -l)
-fi
 
 if [ ! -e /etc/vless ]; then
     mkdir -p /etc/vless
