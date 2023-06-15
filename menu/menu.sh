@@ -3,18 +3,11 @@
 SERONLINE=$(uptime -p | cut -d " " -f 2-10000)
 vmc=$(grep -c -E "^### " "/etc/xray/config.json") 
  let vma=$vmc/2 
-fi
 
-if [ ! -e /etc/vless ]; then
-    mkdir -p /etc/vless
-    touch /etc/vless/.vless.db
-fi
-vms=$(cat /etc/vless/.vless.db)
-if [[ $vms = "" ]]; then
-    vl="0"
-else
-    vl=$(cat /etc/vless/.vless.db | grep "###" | wc -l)
-fi
+
+vlx=$(grep -c -E "^#& " "/etc/xray/config.json") 
+ let vla=$vlx/2 
+
 
 if [ ! -e /etc/trojan ]; then
     mkdir -p /etc/trojan
@@ -324,8 +317,8 @@ echo -e "   \E[0;100;33m • LIST DATA MEMBER • \E[0m"
 echo -e  "${IPurple}╘══════════════════════════╛${NC}"
 echo -e "${IPurple}╒══════════════════════════╕${NC}"
 echo -e "${IPurple}│${NC} ${ICyan}𖡛$bd SSH : ${NC}${BIGreen}[$sh] ${NC}"
-echo -e "${IPurple}│${NC} ${ICyan}𖡛$bd VMESS : ${NC}${BIGreen}[$vm] ${NC}"
-echo -e "${IPurple}│${NC} ${ICyan}𖡛$bd VLESS : ${NC}${BIGreen}[$vl] ${NC}"
+echo -e "${IPurple}│${NC} ${ICyan}𖡛$bd VMESS : ${NC}${BIGreen}[$vma] ${NC}"
+echo -e "${IPurple}│${NC} ${ICyan}𖡛$bd VLESS : ${NC}${BIGreen}[$vla] ${NC}"
 echo -e "${IPurple}│${NC} ${ICyan}𖡛$bd TROJAN : ${NC}${BIGreen}[$tr] ${NC}"
 echo -e  "${IPurple}╘══════════════════════════╛${NC}"
 echo""
