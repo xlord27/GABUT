@@ -7,8 +7,8 @@ NUMBER_OF_CLIENTS=$(grep -c -E "^#sh# " "/etc/ssh/.ssh.db")
     echo "You have no existing clients!"
     echo ""
     echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-    read -n 1 -s -r -p "Press [ Enter ] to back on menu vless"
-    vless
+    read -n 1 -s -r -p "Press [ Enter ] to back on menu ssh"
+    menu
 fi
 
   echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
