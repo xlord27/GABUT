@@ -2,7 +2,7 @@ clear
 echo -e "\033[96m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo -e " \e[1;97m             CREATE TRIALL SSH OVPN ACCOUNT       \e[0m"
 echo -e "\033[96m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-LOGIN=Trial-SSH`</dev/urandom tr -dc 0-9 | head -c3`
+LOGIN=Xlord-Vpn`</dev/urandom tr -dc 0-9 | head -c3`
 PASSWD=1Jam
 EXPIRED=1
 useradd -e `date -d "$EXPIRED days" +"%H"` -s /bin/false -M $LOGIN
