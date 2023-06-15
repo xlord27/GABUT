@@ -8,17 +8,17 @@ vmc=$(grep -c -E "^### " "/etc/xray/config.json")
  let vma=$vmc/2 
 trx=$(grep -c -E "^#! " "/etc/xray/config.json") 
  let tra=$trx/2 
-fi
+
 if [ ! -e /etc/ssh ]; then
     mkdir -p /etc/ssh
     touch /etc/ssh/.ssh.db
-fi
+
 vms=$(cat /etc/ssh/.ssh.db)
 if [[ $vms = "" ]]; then
     sh="0"
 else
     sh=$(cat /etc/ssh/.ssh.db | grep "###" | wc -l)
-fi
+
  clear
 
 BURIQ () {
