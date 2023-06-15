@@ -1,4 +1,4 @@
-NUMBER_OF_CLIENTS=$(grep -c -E "^#sh# " "/etc/ssh/.ssh.db")
+NUMBER_OF_CLIENTS=$(grep -c -E "^### " "/etc/ssh/.ssh.db")
         if [[ ${NUMBER_OF_CLIENTS} == '0' ]]; then
     echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
     echo -e " \e[1;97;101m                LIST NAME SSH                   \e[0m"
@@ -15,7 +15,7 @@ fi
   echo -e "  \e[1;97;101m        Ketik Angka Untuk Lihat Detail         \E[0m"
   echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
         echo "     No  User   Exp"
-        grep -E "^#sh# " "/etc/ssh/.ssh.db" | cut -d ' ' -f 2-3 | nl -s ') '
+        grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 2-3 | nl -s ') '
         until [[ ${CLIENT_NUMBER} -ge 1 && ${CLIENT_NUMBER} -le ${NUMBER_OF_CLIENTS} ]]; do
                 if [[ ${CLIENT_NUMBER} == '1' ]]; then
                         read -rp "Select one client [1]: " CLIENT_NUMBER
