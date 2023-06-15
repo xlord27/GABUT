@@ -41,6 +41,6 @@ echo -e "\033[96m━━━━━━━━━━━━━━━━━━━━━
 echo ""
 else
 echo -e "  Failure: User $LOGIN Tidak Di Temukan."
-fi
+echo""
 read -n 1 -s -r -p "Press [enter] to back menu ssh"
 menu
