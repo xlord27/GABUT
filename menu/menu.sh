@@ -2,32 +2,12 @@
  # ========================================= 
 SERONLINE=$(uptime -p | cut -d " " -f 2-10000)
 vmc=$(grep -c -E "^### " "/etc/xray/config.json") 
- let vma=$vmc/2 
-
-
 vlx=$(grep -c -E "^#& " "/etc/xray/config.json") 
  let vla=$vlx/2 
-
-
-if [ ! -e /etc/trojan ]; then
-    mkdir -p /etc/trojan
-    touch /etc/trojan/.trojan.db
-fi
-vms=$(cat /etc/trojan/.trojan.db)
-if [[ $vms = "" ]]; then
-    tr="0"
-else
-    tr=$(cat /etc/trojan/.trojan.db | grep "###" | wc -l)
-fi
-if [ ! -e /etc/shadowsocks ]; then
-    mkdir -p /etc/shadowsocks
-    touch /etc/shadowsocks/.shadowsocks.db
-fi
-vms=$(cat /etc/shadowsocks/.shadowsocks.db)
-if [[ $vms = "" ]]; then
-    ss="0"
-else
-    ss=$(cat /etc/shadowsocks/.shadowsocks.db | grep "###" | wc -l)
+vmc=$(grep -c -E "^### " "/etc/xray/config.json") 
+ let vma=$vmc/2 
+trx=$(grep -c -E "^#! " "/etc/xray/config.json") 
+ let tra=$trx/2 
 fi
 if [ ! -e /etc/ssh ]; then
     mkdir -p /etc/ssh
@@ -319,7 +299,7 @@ echo -e "${IPurple}╒═══════════════════�
 echo -e "${IPurple}│${NC} ${ICyan}𖡛$bd SSH : ${NC}${BIGreen}[$sh] ${NC}"
 echo -e "${IPurple}│${NC} ${ICyan}𖡛$bd VMESS : ${NC}${BIGreen}[$vma] ${NC}"
 echo -e "${IPurple}│${NC} ${ICyan}𖡛$bd VLESS : ${NC}${BIGreen}[$vla] ${NC}"
-echo -e "${IPurple}│${NC} ${ICyan}𖡛$bd TROJAN : ${NC}${BIGreen}[$tr] ${NC}"
+echo -e "${IPurple}│${NC} ${ICyan}𖡛$bd TROJAN : ${NC}${BIGreen}[$tra] ${NC}"
 echo -e  "${IPurple}╘══════════════════════════╛${NC}"
 echo""
 echo -e "${IPurple}┌─────────────────────────────────────────────────────┐${NC}"
