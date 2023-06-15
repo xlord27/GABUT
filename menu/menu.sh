@@ -1,9 +1,8 @@
 #!/bin/bash 
  # ========================================= 
 SERONLINE=$(uptime -p | cut -d " " -f 2-10000)
-if [ ! -e /etc/vmess ]; then
-    mkdir -p /etc/vmess
-    touch /etc/vmess/.vmess.db
+vmc=$(grep -c -E "^### " "/etc/xray/config.json") 
+ let vma=$vmc/2 
 fi
 vms=$(cat /etc/vmess/.vmess.db)
 if [[ $vms = "" ]]; then
