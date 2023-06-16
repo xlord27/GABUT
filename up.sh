@@ -136,8 +136,11 @@ wget -O usage-trojan "https://raw.githubusercontent.com/xlord27/gabut/main/xray/
 wget -O usage-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/usage-vless.sh"
 wget -O usage-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/usage-vmess.sh"
 #m-ovpn
-wget -0 m-sshovpn "https://raw.githubusercontent.com/sreyaeve/eve/main/file/m-sshovpn.sh
+#wget -0 m-sshovpn "https://raw.githubusercontent.com/sreyaeve/eve/main/file/m-sshovpn.sh"
 
+
+#enc script
+wget -0 xlordstore "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/xlordstore.sh
 
 chmod +x menu
 chmod +x menu-trial
@@ -207,6 +210,7 @@ chmod +x show-vmess
 chmod +x usage-trojan
 chmod +x usage-vless
 chmod +x usage-vmess
+chmod +x xlordstore
 chmod +x m-sshovpn
 echo -e " [INFO] Update Successfully"
 sleep 2
