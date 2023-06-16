@@ -26,8 +26,8 @@ fi
         done
 user=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 2 | sed -n "${CLIENT_NUMBER}"p)
 domain=$(cat /etc/xray/domain)
-exp="$(chage -l $User | grep "Account expires" | awk -F": " '{print $2}')"
-echo -e "$Password\n$Password\n"|passwd $User &> /dev/null
+exp="$(chage -l $LOGIN | grep "Account expires" | awk -F": " '{print $2}')"
+echo -e "$PASSWD\n$PASWD\n"|passwd $LOGIN &> /dev/null
 cat > /var/www/html/ssh-$LOGIN.txt <<-END
 
 END
