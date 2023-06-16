@@ -26,7 +26,7 @@ fi
 useradd -e `date -d "$EXPIRED days" +"%Y-%m-%d"` -s /bin/false -M $LOGIN
 exp="$(chage -l $LOGIN | grep "Account expires" | awk -F": " '{print $2}')"
 echo -e "$PASSWD\n$PASSWD\n"|passwd $LOGIN &> /dev/null
-cat >/var/www/html/ssh-$user.txt <<-END
+cat >/var/www/html/ssh-$LOGIN.txt <<-END
 END
 echo -e "\e[33m———————————————————————————————\033[0m" | tee -a /etc/log-create-user.log
 echo -e "\E[40;1;37m       XLORD TUNNELING            \E[0m" | tee -a /etc/log-create-user.log
