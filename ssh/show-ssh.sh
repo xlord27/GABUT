@@ -28,7 +28,8 @@ CITY=$(cat /etc/xray/city)
 PUB=$( cat /etc/slowdns/server.pub )
 NS=`cat /etc/xray/dns`
 domain=`cat /etc/xray/domain`
-user -e `date -d "$EXPIRED days" +"%Y-%m-%d"` -s /bin/false -M $LOGIN
+user=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 2 | sed -n "${CLIENT_NUMBER}"p)
+domain=$(cat /etc/xray/domain)
 exp="$(chage -l $LOGIN | grep "Account expires" | awk -F": " '{print $2}')"
 echo -e "$PASSWD\n$PASSWD\n"|passwd $LOGIN &> /dev/null
 
