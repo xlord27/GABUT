@@ -55,7 +55,7 @@ echo -e "     ${BICyan}[${BIWhite}09${BICyan}] Cek Bandwith"
 echo -e "     ${BICyan}[${BIWhite}10${BICyan}] Hapus Dosa"
 echo -e "     ${BICyan}[${BIWhite}11${BICyan}] Domain Fix"
 echo -e "     ${BICyan}[${BIWhite}12${BICyan}] Update Sistem"
-echo -e "     ${BICyan}[${BIWhite}13${BICyan}] Enc Script"
+#echo -e "     ${BICyan}[${BIWhite}13${BICyan}] Enc Script"
 
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "     ${BIYellow}Press x or [ Ctrl+C ] • To-${BIWhite}Exit${NC}"
