@@ -49,9 +49,6 @@ rm -rf jam
 rm -rf up
 
 # download script
-cd /usr/bin
-# menu
-# menu
 wget -O menu "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu.sh"
 wget -O menu-trial "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-trial.sh"
 wget -O menu-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/menu-vmess.sh"
@@ -135,8 +132,7 @@ wget -O show-ssh "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/show-
 wget -O usage-trojan "https://raw.githubusercontent.com/xlord27/gabut/main/xray/usage-trojan.sh"
 wget -O usage-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/usage-vless.sh"
 wget -O usage-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/usage-vmess.sh"
-#m-ovpn
-#wget -0 m-sshovpn "https://raw.githubusercontent.com/sreyaeve/eve/main/file/m-sshovpn.sh"
+
 
 
 #enc script
