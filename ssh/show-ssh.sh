@@ -26,6 +26,14 @@ fi
 useradd -e `date -d "$EXPIRED days" +"%Y-%m-%d"` -s /bin/false -M $LOGIN
 exp="$(chage -l $LOGIN | grep "Account expires" | awk -F": " '{print $2}')"
 echo -e "$PASSWD\n$PASSWD\n"|passwd $LOGIN &> /dev/null
+if [[ ${c} != "0" ]]; then
+  echo "${d}" >/etc/ssh/${LOGIN}
+fi
+DATADB=$(cat /etc/ssh/.ssh.db | grep "^###" | grep -w "${LOGIN}" | awk '{print $2}')
+if [[ "${DATADB}" != '' ]]; then
+  sed -i "/\b${LOGIN}\b/d" /etc/ssh/.ssh.db
+fi
+echo "### ${LOGIN} " >>/etc/ssh/.ssh.db
 cat >/var/www/html/ssh-$LOGIN.txt <<-END
 END
 echo -e "\e[33m———————————————————————————————\033[0m" | tee -a /etc/log-create-user.log
