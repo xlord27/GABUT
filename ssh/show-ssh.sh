@@ -30,7 +30,9 @@ NS=`cat /etc/xray/dns`
 domain=`cat /etc/xray/domain`
 user=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 2 | sed -n "${CLIENT_NUMBER}"p)
 domain=$(cat /etc/xray/domain)
-exp="$(chage -l $LOGIN | grep "Account expires" | awk -F": " '{print $2}')"
+exp=$(grep -E "^#tr# " "/etc/trojan/.trojan.db" | cut -d ' ' -f 3 | sed -n "${CLIENT_NUMBER}"p)
+
+hariini=`date -d "0 days" +"%Y-%m-%d"`
 echo -e "$PASSWD\n$PASSWD\n"|passwd $LOGIN &> /dev/null
 
 if [[ ${c} != "0" ]]; then
