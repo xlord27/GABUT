@@ -28,6 +28,15 @@ user=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 2 | sed -n "${CLIENT_N
 domain=$(cat /etc/xray/domain)
 exp="$(chage -l $LOGIN | grep "Account expires" | awk -F": " '{print $2}')"
 echo -e "$PASSWD\n$PASWD\n"|passwd $LOGIN &> /dev/null
+
+if [[ ${c} != "0" ]]; then
+  echo "${d}" >/etc/ssh/${LOGIN}
+fi
+DATADB=$(cat /etc/ssh/.ssh.db | grep "^###" | grep -w "${LOGIN}" | awk '{print $2}')
+if [[ "${DATADB}" != '' ]]; then
+  sed -i "/\b${LOGIN}\b/d" /etc/ssh/.ssh.db
+fi
+echo "### ${LOGIN} " >>/etc/ssh/.ssh.db
 cat > /var/www/html/ssh-$LOGIN.txt <<-END
 
 END
