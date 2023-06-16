@@ -25,7 +25,7 @@ fi
                 fi
         done
 IP=$(curl -sS ifconfig.me)
-AKUN="$(echo $expired | cut -d: -f1)"
+User=$(egrep "^$LOGIN" /etc/passwd >/dev/null
 ID="$(echo $expired | grep -v nobody | cut -d: -f3)"
 domain=`cat /etc/xray/domain`
 exp="$(chage -l $LOGIN | grep "Account expires" | awk -F": " '{print $2}')"
