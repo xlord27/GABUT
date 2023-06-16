@@ -26,7 +26,7 @@ if [ -z $user ]; then
 menu
 else
 clear
-echo -e"`cat "/var/www/html/ssh-$LOGIN.txt"`"
+echo -e"`cat "/tmp/login-db-pid.txt"`"
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu"
 menu
