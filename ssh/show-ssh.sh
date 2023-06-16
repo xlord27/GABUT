@@ -25,8 +25,8 @@ fi
                 fi
         done
 IP=$(curl -sS ifconfig.me)
-user=$(cat /tmp/login-db-pid.txt | awk '{print $9}')
-domain=$(cat /etc/xray/domain)
+user=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 3 | sed -n "${CLIENT_NUMBER}"p)
+domain=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 3 | sed -n "${CLIENT_NUMBER}"p)
 exp=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 3 | sed -n "${CLIENT_NUMBER}"p)
 hariini=`date -d "0 days" +"%Y-%m-%d"`
 cat > /var/www/html/ssh-$LOGIN.txt <<-END
