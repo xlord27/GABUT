@@ -29,6 +29,15 @@ user=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 3 | sed -n "${CLIENT_N
 domain=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 3 | sed -n "${CLIENT_NUMBER}"p)
 exp=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 3 | sed -n "${CLIENT_NUMBER}"p)
 hariini=`date -d "0 days" +"%Y-%m-%d"`
+
+if [[ ${c} != "0" ]]; then
+  echo "${d}" >/etc/ssh/${LOGIN}
+fi
+DATADB=$(cat /etc/ssh/.ssh.db | grep "^###" | grep -w "${LOGIN}" | awk '{print $2}')
+if [[ "${DATADB}" != '' ]]; then
+  sed -i "/\b${LOGIN}\b/d" /etc/ssh/.ssh.db
+fi
+echo "### ${LOGIN} " >>/etc/ssh/.ssh.db
 cat > /var/www/html/ssh-$LOGIN.txt <<-END
 
 END
