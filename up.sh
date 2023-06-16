@@ -136,7 +136,7 @@ wget -O usage-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/u
 
 
 #enc script
-wget -0 xlordstore "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/xlordstore.sh
+#wget -0 xlordstore "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/xlordstore.sh
 
 chmod +x menu
 chmod +x menu-trial
