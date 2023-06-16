@@ -74,6 +74,7 @@ case $opt in
 10) clear ; clearcache; exit ;;
 11) clear ; fix ; exit ;;
 12) clear ; up ; exit ;;
+13) clear ; m-sshovpn ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
 *) echo -e "" ; echo "Anda salah tekan" ; sleep 1 ; menu-set ;;
