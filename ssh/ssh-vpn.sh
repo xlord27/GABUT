@@ -428,7 +428,7 @@ chmod +x usage-trojan
 chmod +x usage-vless
 chmod +x usage-vmess
 chmod +x m-sshovpn
-cdchmod
+cd
 
 
 cat > /etc/cron.d/re_otm <<-END
