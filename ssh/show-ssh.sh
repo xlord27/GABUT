@@ -28,8 +28,8 @@ IP=$(curl -sS ifconfig.me)
 AKUN="$(echo $expired | cut -d: -f1)"
 ID="$(echo $expired | grep -v nobody | cut -d: -f3)"
 domain=`cat /etc/xray/domain`
-exp=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 3 | sed -n "${CLIENT_NUMBER}"p)
-hariini=`date -d "0 days" +"%Y-%m-%d"`
+exp="$(chage -l $LOGIN | grep "Account expires" | awk -F": " '{print $2}')"
+echo -e "$PASSWD\n$PASSWD\n"|passwd $LOGIN &> /dev/null
 
 if [[ ${c} != "0" ]]; then
   echo "${d}" >/etc/ssh/${LOGIN}
