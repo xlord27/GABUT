@@ -55,6 +55,7 @@ echo -e "     ${BICyan}[${BIWhite}09${BICyan}] Cek Bandwith"
 echo -e "     ${BICyan}[${BIWhite}10${BICyan}] Hapus Dosa"
 echo -e "     ${BICyan}[${BIWhite}11${BICyan}] Domain Fix"
 echo -e "     ${BICyan}[${BIWhite}12${BICyan}] Update Sistem"
+echo -e "     ${BICyan}[${BIWhite}13${BICyan}] Enc Script"
 
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "     ${BIYellow}Press x or [ Ctrl+C ] • To-${BIWhite}Exit${NC}"
@@ -74,7 +75,7 @@ case $opt in
 10) clear ; clearcache; exit ;;
 11) clear ; fix ; exit ;;
 12) clear ; up ; exit ;;
-13) clear ; m-sshovpn ; exit ;;
+13) clear ; xlordstore ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
 *) echo -e "" ; echo "Anda salah tekan" ; sleep 1 ; menu-set ;;
