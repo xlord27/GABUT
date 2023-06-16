@@ -355,6 +355,8 @@ wget -O show-ssh "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/show-
 wget -O usage-trojan "https://raw.githubusercontent.com/xlord27/gabut/main/xray/usage-trojan.sh"
 wget -O usage-vless "https://raw.githubusercontent.com/xlord27/gabut/main/xray/usage-vless.sh"
 wget -O usage-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/usage-vmess.sh"
+#m-ovpn
+wget -0 m-sshovpn "https://raw.githubusercontent.com/sreyaeve/eve/main/file/m-sshovpn.sh
 
 chmod +x menu
 chmod +x menu-trial
@@ -425,7 +427,8 @@ chmod +x show-vmess
 chmod +x usage-trojan
 chmod +x usage-vless
 chmod +x usage-vmess
-cd
+chmod +x m-sshovpn
+cdchmod
 
 
 cat > /etc/cron.d/re_otm <<-END
