@@ -21,12 +21,12 @@ grep -E "### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 2-3 | column -t | sort | uniq
 echo ""
 echo -e "${YB}tap enter to go back${NC}"
 echo -e "${CYAN}————————————————————————————————————————————————————${NC}"
-read -p "  Username : " Pengguna
+read -p "  Username : " LOGIN
 clear
-if getent passwd $User >/dev/null 2>&1; then
+if getent passwd $LOGIN >/dev/null 2>&1; then
     ok="ok"
 else
-    echo -e "Failure: User $User Not Exist."
+    echo -e "Failure: User $LOGIN Not Exist."
     echo ""
     read -n 1 -s -r -p "Press any key to back on menu"
     menu
@@ -39,7 +39,7 @@ if [ -z $User ]; then
     menu
 fi
 
-egrep "^$User" /etc/passwd >/dev/null
+egrep "^$LOGIN" /etc/passwd >/dev/null
 if [ $? -eq 0 ]; then
     read -p "Day Extend : " Days
     if [ -z $Days ]; then
@@ -50,10 +50,10 @@ if [ $? -eq 0 ]; then
     Expire_On=$(($Today + $Days_Detailed))
     Expiration=$(date -u --date="1970-01-01 $Expire_On sec GMT" +%Y/%m/%d)
     Expiration_Display=$(date -u --date="1970-01-01 $Expire_On sec GMT" '+%d %b %Y')
-    passwd -u $User
-    usermod -e $Expiration $User
-    egrep "^$User" /etc/passwd >/dev/null
-    echo -e "$Pass\n$Pass\n" | passwd $User &>/dev/null
+    passwd -u $LOGIN
+    usermod -e $Expiration $LOGIN
+    egrep "^$LOGIN" /etc/passwd >/dev/null
+    echo -e "$Pass\n$Pass\n" | passwd $LOGIN &>/dev/null
 clear
 echo -e "\e[33m———————————————————————————————\033[0m" | tee -a /etc/log-create-user.log
 echo -e "\E[40;1;37m       XLORD TUNNELING            \E[0m" | tee -a /etc/log-create-user.log
