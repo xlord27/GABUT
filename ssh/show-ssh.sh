@@ -21,14 +21,14 @@ grep -E "### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 2-3 | column -t | sort | uniq
 echo ""
 echo -e "${YB}tap enter to go back${NC}"
 echo -e "${CYAN}————————————————————————————————————————————————————${NC}"
-read -p "  Username : " Pengguna
+read -p "  Username : " LOGIN
 clear
 IP=$(curl -sS ifconfig.me)
 CITY=$(cat /etc/xray/city)
 PUB=$( cat /etc/slowdns/server.pub )
 NS=`cat /etc/xray/dns`
 domain=`cat /etc/xray/domain`
-useradd -e `date -d "$EXPIRED days" +"%Y-%m-%d"` -s /bin/false -M $LOGIN
+user -e `date -d "$EXPIRED days" +"%Y-%m-%d"` -s /bin/false -M $LOGIN
 exp="$(chage -l $LOGIN | grep "Account expires" | awk -F": " '{print $2}')"
 echo -e "$PASSWD\n$PASSWD\n"|passwd $LOGIN &> /dev/null
 
