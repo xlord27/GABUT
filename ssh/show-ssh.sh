@@ -1,5 +1,5 @@
 clear
-NUMBER_OF_CLIENTS=$(grep -E "###! " "/etc/ssh/.ssh.db"
+NUMBER_OF_CLIENTS=$(grep -c -E "###! " "/etc/xray/config.json")
 if [[ ${NUMBER_OF_CLIENTS} == '0' ]]; then
 clear
 echo -e "${CYAN}————————————————————————————————————————————————————${NC}"
