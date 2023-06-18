@@ -36,7 +36,7 @@ echo -e "\e[33m—————————————————————�
 echo -e "\E[40;1;37m       XLORD TUNNELING            \E[0m" | tee -a /etc/log-create-user.log
 echo -e "\e[33m————————————————————————————————\033[0m" | tee -a /etc/log-create-user.log
 echo -e "Username    : $user" | tee -a /etc/log-create-user.log
-echo -e "Password    : $pass" | tee -a /etc/log-create-user.log
+echo -e "Password    : $passwd" | tee -a /etc/log-create-user.log
 echo -e "Expired On  : $exp" | tee -a /etc/log-create-user.log
 echo -e "\e[33m————————————————————————————————\033[0m" | tee -a /etc/log-create-user.log
 echo -e "\E[40;1;37m           INFORMASI SERVER      \E[0m" | tee -a /etc/log-create-user.log
@@ -50,10 +50,10 @@ echo -e "SSH-SSL-WS  : 443" | tee -a /etc/log-create-user.log
 echo -e "SSL/TLS     : 447 , 777" | tee -a /etc/log-create-user.log
 echo -e "SlowDNS     : 53,5300,443" 
 echo -e "UDPGW       : 7100-7300" | tee -a /etc/log-create-user.log
-echo -e "SSH-80      : $domain:80@$user:$pass"
-echo -e "SSH-443     : $domain:443@$user:$pass"
+echo -e "SSH-80      : $domain:80@$user:$passwd"
+echo -e "SSH-443     : $domain:443@$user:$passwd"
 echo -e "SSH-UDP     : 1-65535" | tee -a /etc/log-create-user.log
-echo -e "SETING-UDP  : $domain:1-65535@$user:$pass"
+echo -e "SETING-UDP  : $domain:1-65535@$user:$passwd"
 #echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 #echo -e "OpenVPN Config : http://$IP:81/" | tee -a /etc/log-create-user.log
 echo -e "\e[33m————————————————————————————————\033[0m" | tee -a /etc/log-create-user.log
