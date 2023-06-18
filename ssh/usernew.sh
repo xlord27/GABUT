@@ -143,8 +143,8 @@ echo -e "Payload WSS" | tee -a /etc/log-create-user.log
 echo -e "
 GET wss://$domain [protocol][crlf]Host: ${domain}[crlf]Upgrade: websocket[crlf][crlf]
 " | tee -a /etc/log-create-user.log
-echo -e "Payload WS" | tee -a /etc/log-create-user.log
 echo -e "\e[33m————————————————————————————————\033[0m" | tee -a /etc/log-create-user.log
+echo -e "Payload WS" | tee -a /etc/log-create-user.log
 echo -e "
 GET / HTTP/1.1[crlf]Host: $domain[crlf]Upgrade: websocket[crlf][crlf]
 " | tee -a /etc/log-create-user.log
