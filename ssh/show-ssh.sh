@@ -36,7 +36,7 @@ echo -e "\e[33m—————————————————————�
 echo -e "\E[40;1;37m       XLORD TUNNELING            \E[0m" | tee -a /etc/log-create-user.log
 echo -e "\e[33m————————————————————————————————\033[0m" | tee -a /etc/log-create-user.log
 echo -e "Username    : $user" | tee -a /etc/log-create-user.log
-echo -e "Password    : $passwd" | tee -a /etc/log-create-user.log
+echo -e "Password    : $pass" | tee -a /etc/log-create-user.log
 echo -e "Expired On  : $exp" | tee -a /etc/log-create-user.log
 echo -e "\e[33m————————————————————————————————\033[0m" | tee -a /etc/log-create-user.log
 echo -e "\E[40;1;37m           INFORMASI SERVER      \E[0m" | tee -a /etc/log-create-user.log
