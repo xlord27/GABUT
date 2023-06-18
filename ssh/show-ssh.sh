@@ -26,7 +26,7 @@ NUMBER_OF_CLIENTS=$(grep -c -E "^### " "/etc/ssh/.ssh.db")
         done
 IP=$(curl -sS ifconfig.me)
 user=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 2 | sed -n "${CLIENT_NUMBER}"p)
-PASSWD=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 2 | sed -n "${CLIENT_NUMBER}"p)
+PASSWD=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 4 | sed -n "${CLIENT_NUMBER}"p)
 domain=`cat /etc/xray/domain`
 exp="$(chage -l $user | grep "Account expires" | awk -F": " '{print $2}')"
 echo -e "$PASSWD\n$PASSWD\n"|passwd $user &> /dev/null
@@ -59,12 +59,12 @@ echo -e "SETING-UDP  : $domain:1-65535@$user:$PASSWD"
 echo -e "\e[33m————————————————————————————————\033[0m" | tee -a /etc/log-create-user.log
 echo -e "Expired On     : $exp" | tee -a /etc/log-create-user.log
 echo -e "\e[33m————————————————————————————————\033[0m" | tee -a /etc/log-create-user.log
-echo -e "Payload WSS" | tee -a /etc/log-create-user.log
+echo -e "PYLOD PORT 443" | tee -a /etc/log-create-user.log
 echo -e "
 GET wss://$domain [protocol][crlf]Host: ${domain}[crlf]Upgrade: websocket[crlf][crlf]
 " | tee -a /etc/log-create-user.log
-echo -e "Payload WS" | tee -a /etc/log-create-user.log
 echo -e "\e[33m————————————————————————————————\033[0m" | tee -a /etc/log-create-user.log
+echo -e "PYLOD PORT 80" | tee -a /etc/log-create-user.log
 echo -e "
 GET / HTTP/1.1[crlf]Host: $domain[crlf]Upgrade: websocket[crlf][crlf]
 " | tee -a /etc/log-create-user.log
