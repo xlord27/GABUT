@@ -26,9 +26,10 @@ NUMBER_OF_CLIENTS=$(grep -c -E "^### " "/etc/ssh/.ssh.db")
         done
 IP=$(curl -sS ifconfig.me)
 user=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 2 | sed -n "${CLIENT_NUMBER}"p)
-PASSWD=grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 1 | sed -n "${CLIENT_NUMBER}"p)
+PASSWD=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 2 | sed -n "${CLIENT_NUMBER}"p)
 domain=`cat /etc/xray/domain`
-exp=grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 3 | sed -n "${CLIENT_NUMBER}"p)
+exp="$(chage -l $user | grep "Account expires" | awk -F": " '{print $2}')"
+echo -e "$PASSWD\n$PASSWD\n"|passwd $user &> /dev/null
 hariini=`date -d "0 days" +"%Y-%m-%d"`
 clear
 echo -e "\e[33m———————————————————————————————\033[0m" | tee -a /etc/log-create-user.log
