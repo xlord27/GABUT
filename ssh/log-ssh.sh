@@ -27,7 +27,7 @@ echo "USERNAME EXP DATE        "
 echo -e "${CYAN}──────────────────────────────────${NC}" 
 while read expired
 do
-IIP=$(curl -sS ifconfig.me)
+IP=$(curl -sS ifconfig.me)
 user=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 2 | sed -n "${CLIENT_NUMBER}"p)
 PASSWD=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 2 | sed -n "${CLIENT_NUMBER}"p)
 domain=`cat /etc/xray/domain`
