@@ -358,7 +358,7 @@ wget -O usage-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/u
 #percepat
 wget -O tcp "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/tcp.sh"
 #swapmemori
-wget -0 swap "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/swapkvm.sh"
+wget -0 swap "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/kvmswap.sh"
 
 chmod +x menu
 chmod +x menu-trial
