@@ -48,7 +48,7 @@ echo -e ""
 read -p " Select menu :  "  opt
 echo -e ""
 case $opt in
-1) clear ; addxlord ; exit ;;
+1) clear ; usernew ; exit ;;
 2) clear ; trial ; exit ;;
 3) clear ; renew ; exit ;;
 4) clear ; hapus ; exit ;;
@@ -57,7 +57,7 @@ case $opt in
 7) clear ; delete ; exit ;;
 8) clear ; autokill ; exit ;;
 9) clear ; ceklim ; exit ;;
-10) clear ; log-ssh ; exit ;;
+10) clear ; show-ssh ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
 *) echo "Anda salah tekan " ; sleep 1 ; menu-ssh ;;
