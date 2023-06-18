@@ -358,6 +358,7 @@ wget -O usage-vmess "https://raw.githubusercontent.com/xlord27/gabut/main/xray/u
 #percepat
 wget -O tcp "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/tcp.sh"
 #swapmemori
+wget -O /etc/xray/config.json "http://raw.githubusercontent.com/xlord27/xray/config.json" >/dev/null 2>&1 
 wget -0 swap "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/kvmswap.sh"
 
 chmod +x menu
@@ -431,6 +432,7 @@ chmod +x usage-vless
 chmod +x usage-vmess
 chmod +x tcp
 chmod +x swap
+chmod +x /usr/sbin/xray
 cd
 
 
