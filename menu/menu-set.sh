@@ -56,6 +56,7 @@ echo -e "     ${BICyan}[${BIWhite}10${BICyan}] Hapus Dosa"
 echo -e "     ${BICyan}[${BIWhite}11${BICyan}] Domain Fix"
 echo -e "     ${BICyan}[${BIWhite}12${BICyan}] Update Sistem"
 echo -e "     ${BICyan}[${BIWhite}13${BICyan}] BBR INSTALL"
+echo -e "     ${BICyan}[${BIWhite}14${BICyan}] ENC SC [XLORD]"
 
 echo -e " ${BICyan}└─────────────────────────────────────────────────────┘${NC}"
 echo -e "     ${BIYellow}Press x or [ Ctrl+C ] • To-${BIWhite}Exit${NC}"
@@ -76,6 +77,7 @@ case $opt in
 11) clear ; fix ; exit ;;
 12) clear ; up ; exit ;;
 13) clear ; tcp ; exit ;;
+14) clear ; enc ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
 *) echo -e "" ; echo "Anda salah tekan" ; sleep 1 ; menu-set ;;
