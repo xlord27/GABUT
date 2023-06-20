@@ -292,7 +292,7 @@ wget -O member "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/member.
 wget -O delete "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/delete.sh"
 wget -O autokill "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/autokill.sh"
 wget -O ceklim "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/ceklim.sh"
-wget -O xp "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/xp.sh"
+wget -O xp "https://raw.githubusercontent.com/xlord27/gabut/main/menu/xp.sh"
 
 # menu system
 wget -O menu-set "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-set.sh"
