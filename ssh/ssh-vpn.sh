@@ -368,7 +368,7 @@ chmod +x menu-vless
 chmod +x running
 chmod +x /usr/local/bin/xray
 chmod +x clearcache
-chmod +x menu-trgo
+chmod +x enc
 chmod +x menu-trojan
 chmod +x fix
 
