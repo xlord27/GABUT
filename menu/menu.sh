@@ -322,8 +322,8 @@ echo -e "${IPurple} │${NC} 🔆$bd DOMAIN MU  : ${BICyan}$domain${NC}"
 echo -e "${IPurple} │${NC} 🔆$bd KATA KATA  : \033[31;1m𝗝𝗔𝗡𝗚𝗔𝗡 𝗟𝗨𝗣𝗔 𝗦𝗛𝗢𝗟𝗔𝗧${NC}"
 echo -e "${IPurple} └──────────────────────────────────────────────────┘${NC}"
 echo -e " ${IPurple}┌──────────────────────────────────────────────────┐${NC}"
-echo -e "${IPurple} │${NC} ${ICyan}𖡛$bd BW HARI INI ${NC}  : ${YELLOW} [$ttoday]${NC} /DAYS      ${NC}        ${IPurple}│"
-echo -e "${IPurple} │${NC} ${ICyan}𖡛$bd BW BULANAN  ${NC}  : ${YELLOW} [$tmon]${NC} /MONTH   ${NC}          ${IPurple}│"
+echo -e "${IPurple} │${NC} ${ICyan}𖡛$bd BW HARI INI ${NC}  : ${YELLOW} [$ttoday]${NC} /DAYS      ${NC}       ${IPurple}│"
+echo -e "${IPurple} │${NC} ${ICyan}𖡛$bd BW BULANAN  ${NC}  : ${YELLOW} [$tmon]${NC} /MONTH   ${NC}         ${IPurple}│"
 echo -e "${IPurple} └──────────────────────────────────────────────────┘${NC}" 
 
 echo -e "${IPurple}┌──────────────────────────┐${NC}"
@@ -355,7 +355,7 @@ datediff() {
     echo -e " ${IPurple}│${NC}   Expiry In      : $(( (d1 - d2) / 86400 )) Days |$exp $NC"
 }
 mai="datediff "$Exp" "$DATE""
-echo -e " ${IPurple}┌─────────────────────────────────────┐${NC}"
+echo -e " ${IPurple}┌───────────────────────────────────────┐${NC}"
 echo -e " ${IPurple}│${NC}   Version        : $(cat /opt/.ver) 4.0 Lite ${NC}"
 echo -e " ${IPurple}│${NC}   Client         :\033[1;36m $Name \e[0m"
 echo -e " ${IPurple}│${NC}   Order By       : ${BIRed}XLORD VPN${NC}"
@@ -365,7 +365,7 @@ echo -e "   $BICyan│$NC License      : ${GREEN}$sisa_hari$NC Days Tersisa $NC"
 else
     datediff "$Exp" "$DATE"
 fi;
-echo -e " ${IPurple}└─────────────────────────────────────┘${NC}"
+echo -e " ${IPurple}└────────────────────────────────────────┘${NC}"
 echo
 read -p " Select menu : " opt
 echo -e ""
