@@ -292,7 +292,7 @@ wget -O member "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/member.
 wget -O delete "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/delete.sh"
 wget -O autokill "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/autokill.sh"
 wget -O ceklim "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/ceklim.sh"
-wget -O tendang "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/tendang.sh"
+wget -O xp "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/xp.sh"
 
 # menu system
 wget -O menu-set "https://raw.githubusercontent.com/xlord27/gabut/main/menu/menu-set.sh"
@@ -382,7 +382,7 @@ chmod +x member
 chmod +x delete
 chmod +x autokill
 chmod +x ceklim
-chmod +x tendang
+chmod +x xp
 
 chmod +x menu-set
 chmod +x menu-domain
