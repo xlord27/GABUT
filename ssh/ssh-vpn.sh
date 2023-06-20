@@ -305,7 +305,7 @@ wget -O speedtest "https://raw.githubusercontent.com/artanodrop/v4/main/ssh/spee
 wget -O about "https://raw.githubusercontent.com/xlord27/gabut/main/menu/about.sh"
 wget -O auto-reboot "https://raw.githubusercontent.com/xlord27/gabut/main/menu/auto-reboot.sh"
 wget -O restart "https://raw.githubusercontent.com/artanodrop/v4/main/menu/restart.sh"
-wget -O enc "https://raw.githubusercontent.com/xlord27/gabut/main/enc.sh"
+wget -O enc "https://raw.githubusercontent.com/xlord27/gabut/main/ssh/enc.sh"
 wget -O bw "https://raw.githubusercontent.com/artanodrop/v4/main/menu/bw.sh"
 
 # change port
