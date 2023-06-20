@@ -330,7 +330,7 @@ echo -e "${IPurple}┌───────────────────�
 echo -e "${IPurple}│  $NC\E[0;100;33m • LIST DATA MEMBER • \E[0m"      "${IPurple} │"
 echo -e  "${IPurple}└──────────────────────────┘${NC}"
 echo -e "${IPurple}┌──────────────────────────┐${NC}"
-echo -e "${IPurple}│${NC} $bd𖡛$bd SSH : ${NC}${BIGreen}[$sh]$NC$bd Member ${NC}"
+#echo -e "${IPurple}│${NC} $bd𖡛$bd SSH : ${NC}${BIGreen}[$sh]$NC$bd Member ${NC}"
 echo -e "${IPurple}│${NC} $bd𖡛$bd VMESS : ${NC}${BIGreen}[$vm]$NC$bd Member ${NC}"
 echo -e "${IPurple}│${NC} $bd𖡛$bd VLESS : ${NC}${BIGreen}[$vl]$NC$bd Member ${NC}"
 echo -e "${IPurple}│${NC} $bd𖡛$bd TROJAN : ${NC}${BIGreen}[$tr]$NC$bd Member ${NC}"
