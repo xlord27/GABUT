@@ -355,7 +355,7 @@ datediff() {
     echo -e " ${IPurple}│${NC}   Expiry In      : $(( (d1 - d2) / 86400 )) Days |$exp $NC"
 }
 mai="datediff "$Exp" "$DATE""
-echo -e " ${IPurple}┌───────────────────────────────────────────┐${NC}"
+echo -e " ${IPurple}┌──────────────────────────────────────────┐${NC}"
 echo -e " ${IPurple}│${NC}   Version        : $(cat /opt/.ver) 4.0 Lite ${NC}"
 echo -e " ${IPurple}│${NC}   Client         :\033[1;36m $Name \e[0m"
 echo -e " ${IPurple}│${NC}   Order By       : ${BIRed}XLORD VPN${NC}"
