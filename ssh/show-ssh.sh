@@ -53,7 +53,7 @@ echo -e "UDPGW       : 7100-7300" | tee -a /etc/log-create-user.log
 echo -e "SSH-80      : $domain:80@$user:$Pass"
 echo -e "SSH-443     : $domain:443@$user:$Pass"
 echo -e "SSH-UDP     : 1-65535" | tee -a /etc/log-create-user.log
-echo -e "SETING-UDP  : $domain:1-65535@$user:$PASSWD"
+echo -e "SETING-UDP  : $domain:1-65535@$user:$Pass"
 #echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 #echo -e "OpenVPN Config : http://$IP:81/" | tee -a /etc/log-create-user.log
 echo -e "\e[33m————————————————————————————————\033[0m" | tee -a /etc/log-create-user.log
