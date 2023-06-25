@@ -40,7 +40,7 @@ print_sum() {
     | numfmt --field=2  --suffix=B --to=iec \
     | column -t
 }
-DATA=$(apidata $1)
+DATA=( `cat /etc/xray/config.json | grep '^#vm' | cut -d ' ' -f 2 | sort | uniq`);
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\E[0;100;33m      • USAGE USER TROJAN •          \E[0m"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m$NC"
