@@ -1,5 +1,5 @@
 clear
-NUMBER_OF_CLIENTS=$(grep -c -E "^### " "/etc/ssh/.ssh.db")
+NUMBER_OF_CLIENTS=$(grep -c -E "^ssh " "/etc/ssh/.ssh.db")
         if [[ ${NUMBER_OF_CLIENTS} == '0' ]]; then
     echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
     echo -e " \e[1;97;101m         SSH MEMBER DETAIL          \e[0m"
@@ -16,7 +16,7 @@ fi
   echo -e "  \e[1;97;101m        SSH MEMBER DETAIL        \E[0m"
   echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
         echo "     No  User   Exp"
-        grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 2-3-4 | nl -s ') '
+        grep -E "^ssh " "/etc/ssh/.ssh.db" | cut -d ' ' -f 2-3-4 | nl -s ') '
         until [[ ${CLIENT_NUMBER} -ge 1 && ${CLIENT_NUMBER} -le ${NUMBER_OF_CLIENTS} ]]; do
                 if [[ ${CLIENT_NUMBER} == '1' ]]; then
                         read -rp "Select one client [1]: " CLIENT_NUMBER
@@ -26,9 +26,9 @@ fi
         done
 IP=$(curl -sS ifconfig.me)
 ID="$(echo $expired | grep -v nobody | cut -d: -f3)"
-LOGIN=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 2 | sed -n "${CLIENT_NUMBER}"p)
-exp=$(grep -E "^### " "/etc/ssh/.ssh.db" | cut -d ' ' -f 3 | sed -n "${CLIENT_NUMBER}"p)
-PASSWD=$(grep -E "^###" "/etc/ssh/.ssh.db" | cut -d ' ' -f 4 | sed -n "${CLIENT_NUMBER}"p)
+LOGIN=$(grep -E "^ssh " "/etc/ssh/.ssh.db" | cut -d ' ' -f 2 | sed -n "${CLIENT_NUMBER}"p)
+exp=$(grep -E "^ssh " "/etc/ssh/.ssh.db" | cut -d ' ' -f 3 | sed -n "${CLIENT_NUMBER}"p)
+PASSWD=$(grep -E "^ssh " "/etc/ssh/.ssh.db" | cut -d ' ' -f 4 | sed -n "${CLIENT_NUMBER}"p)
 
 if [[ ${c} != "0" ]]; then
   echo "${d}" >/etc/ssh/${LOGIN}
